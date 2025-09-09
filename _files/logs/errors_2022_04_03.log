@@ -1,0 +1,330 @@
+2022-04-03 03:45:23
+User_id: 0
+Error: E_WARNING
+URL: https://meetgreeksingles.com/
+File: D:\htdocs\meetgreeksingles_com\_include\lib\db_mysqli.php
+Line: 21
+Message: mysqli_connect(): (HY000/2002): No connection could be made because the target machine actively refused it.
+
+
+Call stack:
+
+File: D:\htdocs\meetgreeksingles_com\_include\lib\db_mysqli.php (Line: 21)
+Function: mysqli_connect
+
+File: D:\htdocs\meetgreeksingles_com\_include\lib\db_common.php (Line: 69)
+Class: DB
+Function: driver_connect
+
+File: D:\htdocs\meetgreeksingles_com\_include\core\start.php (Line: 366)
+Class: DB_Common
+Function: connect
+
+File: D:\htdocs\meetgreeksingles_com\_include\core\main_start.php (Line: 11)
+Function: include_once
+
+File: D:\htdocs\meetgreeksingles_com\index.php (Line: 16)
+Function: include
+
+---------
+
+2022-04-03 03:45:25
+User_id: 0
+Error: E_WARNING
+URL: https://meetgreeksingles.com/
+File: D:\htdocs\meetgreeksingles_com\_include\lib\db_mysqli.php
+Line: 21
+Message: mysqli_connect(): (HY000/2002): No connection could be made because the target machine actively refused it.
+
+
+Call stack:
+
+File: D:\htdocs\meetgreeksingles_com\_include\lib\db_mysqli.php (Line: 21)
+Function: mysqli_connect
+
+File: D:\htdocs\meetgreeksingles_com\_include\lib\db_common.php (Line: 69)
+Class: DB
+Function: driver_connect
+
+File: D:\htdocs\meetgreeksingles_com\_include\core\start.php (Line: 366)
+Class: DB_Common
+Function: connect
+
+File: D:\htdocs\meetgreeksingles_com\_include\core\main_start.php (Line: 11)
+Function: include_once
+
+File: D:\htdocs\meetgreeksingles_com\index.php (Line: 16)
+Function: include
+
+---------
+
+2022-04-03 03:45:28
+User_id: 0
+Error: E_WARNING
+URL: https://meetgreeksingles.com/feeds
+File: D:\htdocs\meetgreeksingles_com\_include\lib\db_mysqli.php
+Line: 21
+Message: mysqli_connect(): (HY000/2002): No connection could be made because the target machine actively refused it.
+
+
+Call stack:
+
+File: D:\htdocs\meetgreeksingles_com\_include\lib\db_mysqli.php (Line: 21)
+Function: mysqli_connect
+
+File: D:\htdocs\meetgreeksingles_com\_include\lib\db_common.php (Line: 69)
+Class: DB
+Function: driver_connect
+
+File: D:\htdocs\meetgreeksingles_com\_include\core\start.php (Line: 366)
+Class: DB_Common
+Function: connect
+
+File: D:\htdocs\meetgreeksingles_com\_include\core\main_start.php (Line: 11)
+Function: include_once
+
+File: D:\htdocs\meetgreeksingles_com\router.php (Line: 9)
+Function: include
+
+---------
+
+2022-04-03 03:45:29
+User_id: 0
+Error: E_WARNING
+URL: https://meetgreeksingles.com/rss
+File: D:\htdocs\meetgreeksingles_com\_include\lib\db_mysqli.php
+Line: 21
+Message: mysqli_connect(): (HY000/2002): No connection could be made because the target machine actively refused it.
+
+
+Call stack:
+
+File: D:\htdocs\meetgreeksingles_com\_include\lib\db_mysqli.php (Line: 21)
+Function: mysqli_connect
+
+File: D:\htdocs\meetgreeksingles_com\_include\lib\db_common.php (Line: 69)
+Class: DB
+Function: driver_connect
+
+File: D:\htdocs\meetgreeksingles_com\_include\core\start.php (Line: 366)
+Class: DB_Common
+Function: connect
+
+File: D:\htdocs\meetgreeksingles_com\_include\core\main_start.php (Line: 11)
+Function: include_once
+
+File: D:\htdocs\meetgreeksingles_com\router.php (Line: 9)
+Function: include
+
+---------
+
+2022-04-03 03:45:29
+User_id: 0
+Error: E_WARNING
+URL: https://meetgreeksingles.com/feed
+File: D:\htdocs\meetgreeksingles_com\_include\lib\db_mysqli.php
+Line: 21
+Message: mysqli_connect(): (HY000/2002): No connection could be made because the target machine actively refused it.
+
+
+Call stack:
+
+File: D:\htdocs\meetgreeksingles_com\_include\lib\db_mysqli.php (Line: 21)
+Function: mysqli_connect
+
+File: D:\htdocs\meetgreeksingles_com\_include\lib\db_common.php (Line: 69)
+Class: DB
+Function: driver_connect
+
+File: D:\htdocs\meetgreeksingles_com\_include\core\start.php (Line: 366)
+Class: DB_Common
+Function: connect
+
+File: D:\htdocs\meetgreeksingles_com\_include\core\main_start.php (Line: 11)
+Function: include_once
+
+File: D:\htdocs\meetgreeksingles_com\router.php (Line: 9)
+Function: include
+
+---------
+
+2022-04-03 03:47:11
+User_id: 0
+Error: E_WARNING
+URL: https://meetgreeksingles.com/index
+File: D:\htdocs\meetgreeksingles_com\_include\lib\db_mysqli.php
+Line: 21
+Message: mysqli_connect(): (HY000/2002): No connection could be made because the target machine actively refused it.
+
+
+Call stack:
+
+File: D:\htdocs\meetgreeksingles_com\_include\lib\db_mysqli.php (Line: 21)
+Function: mysqli_connect
+
+File: D:\htdocs\meetgreeksingles_com\_include\lib\db_common.php (Line: 69)
+Class: DB
+Function: driver_connect
+
+File: D:\htdocs\meetgreeksingles_com\_include\core\start.php (Line: 366)
+Class: DB_Common
+Function: connect
+
+File: D:\htdocs\meetgreeksingles_com\_include\core\main_start.php (Line: 11)
+Function: include_once
+
+File: D:\htdocs\meetgreeksingles_com\router.php (Line: 9)
+Function: include
+
+---------
+
+2022-04-03 03:51:04
+User_id: 0
+Error: E_WARNING
+URL: http://meetgreeksingles.com/_cron/cron.php
+File: D:\htdocs\meetgreeksingles_com\_include\lib\db_mysqli.php
+Line: 21
+Message: mysqli_connect(): (HY000/2002): No connection could be made because the target machine actively refused it.
+
+
+Call stack:
+
+File: D:\htdocs\meetgreeksingles_com\_include\lib\db_mysqli.php (Line: 21)
+Function: mysqli_connect
+
+File: D:\htdocs\meetgreeksingles_com\_include\lib\db_common.php (Line: 69)
+Class: DB
+Function: driver_connect
+
+File: D:\htdocs\meetgreeksingles_com\_include\core\start.php (Line: 366)
+Class: DB_Common
+Function: connect
+
+File: D:\htdocs\meetgreeksingles_com\_include\core\main_start.php (Line: 11)
+Function: include_once
+
+File: D:\htdocs\meetgreeksingles_com\_cron\cron.php (Line: 11)
+Function: include
+
+---------
+
+2022-04-03 03:51:08
+User_id: 0
+Error: E_WARNING
+URL: http://meetgreeksingles.com/_cron/cron.php
+File: D:\htdocs\meetgreeksingles_com\_include\lib\db_mysqli.php
+Line: 21
+Message: mysqli_connect(): (HY000/2002): No connection could be made because the target machine actively refused it.
+
+
+Call stack:
+
+File: D:\htdocs\meetgreeksingles_com\_include\lib\db_mysqli.php (Line: 21)
+Function: mysqli_connect
+
+File: D:\htdocs\meetgreeksingles_com\_include\lib\db_common.php (Line: 69)
+Class: DB
+Function: driver_connect
+
+File: D:\htdocs\meetgreeksingles_com\_include\core\start.php (Line: 366)
+Class: DB_Common
+Function: connect
+
+File: D:\htdocs\meetgreeksingles_com\_include\core\main_start.php (Line: 11)
+Function: include_once
+
+File: D:\htdocs\meetgreeksingles_com\_cron\cron.php (Line: 11)
+Function: include
+
+---------
+
+2022-04-03 04:10:04
+User_id: 0
+Error: E_WARNING
+URL: https://meetgreeksingles.com/maltipoo-puppies-uaopw/hither-hills-camping-reviews.html
+File: D:\htdocs\meetgreeksingles_com\_include\lib\db_mysqli.php
+Line: 21
+Message: mysqli_connect(): (HY000/2002): No connection could be made because the target machine actively refused it.
+
+
+Call stack:
+
+File: D:\htdocs\meetgreeksingles_com\_include\lib\db_mysqli.php (Line: 21)
+Function: mysqli_connect
+
+File: D:\htdocs\meetgreeksingles_com\_include\lib\db_common.php (Line: 69)
+Class: DB
+Function: driver_connect
+
+File: D:\htdocs\meetgreeksingles_com\_include\core\start.php (Line: 366)
+Class: DB_Common
+Function: connect
+
+File: D:\htdocs\meetgreeksingles_com\_include\core\main_start.php (Line: 11)
+Function: include_once
+
+File: D:\htdocs\meetgreeksingles_com\router.php (Line: 9)
+Function: include
+
+---------
+
+2022-04-03 04:11:04
+User_id: 0
+Error: E_WARNING
+URL: http://meetgreeksingles.com/_cron/cron.php
+File: D:\htdocs\meetgreeksingles_com\_include\lib\db_mysqli.php
+Line: 21
+Message: mysqli_connect(): (HY000/2002): No connection could be made because the target machine actively refused it.
+
+
+Call stack:
+
+File: D:\htdocs\meetgreeksingles_com\_include\lib\db_mysqli.php (Line: 21)
+Function: mysqli_connect
+
+File: D:\htdocs\meetgreeksingles_com\_include\lib\db_common.php (Line: 69)
+Class: DB
+Function: driver_connect
+
+File: D:\htdocs\meetgreeksingles_com\_include\core\start.php (Line: 366)
+Class: DB_Common
+Function: connect
+
+File: D:\htdocs\meetgreeksingles_com\_include\core\main_start.php (Line: 11)
+Function: include_once
+
+File: D:\htdocs\meetgreeksingles_com\_cron\cron.php (Line: 11)
+Function: include
+
+---------
+
+2022-04-03 04:11:08
+User_id: 0
+Error: E_WARNING
+URL: http://meetgreeksingles.com/_cron/cron.php
+File: D:\htdocs\meetgreeksingles_com\_include\lib\db_mysqli.php
+Line: 21
+Message: mysqli_connect(): (HY000/2002): No connection could be made because the target machine actively refused it.
+
+
+Call stack:
+
+File: D:\htdocs\meetgreeksingles_com\_include\lib\db_mysqli.php (Line: 21)
+Function: mysqli_connect
+
+File: D:\htdocs\meetgreeksingles_com\_include\lib\db_common.php (Line: 69)
+Class: DB
+Function: driver_connect
+
+File: D:\htdocs\meetgreeksingles_com\_include\core\start.php (Line: 366)
+Class: DB_Common
+Function: connect
+
+File: D:\htdocs\meetgreeksingles_com\_include\core\main_start.php (Line: 11)
+Function: include_once
+
+File: D:\htdocs\meetgreeksingles_com\_cron\cron.php (Line: 11)
+Function: include
+
+---------
+

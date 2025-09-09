@@ -1,0 +1,10 @@
+<images>
+	<marker>_server/flashchat/images_standard/marker.png</marker>
+	<send>_server/flashchat/images_standard/btnSend.png</send>
+	<smile type=":$">_server/flashchat/images_standard/smiles/yeah.png</smile>
+	<smile type=":(">_server/flashchat/images_standard/smiles/what.png</smile>
+	<smile type=":0">_server/flashchat/images_standard/smiles/angel.png</smile>
+	<smile type=":)">_server/flashchat/images_standard/smiles/yes.png</smile>
+	<smile type=":|">_server/flashchat/images_standard/smiles/burps.png</smile>
+	<smile type="8)">_server/flashchat/images_standard/smiles/who.png</smile>
+</images>

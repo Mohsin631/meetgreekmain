@@ -1,0 +1,32 @@
+<!-- begin_list_users_item -->
+<li data-user-id="{list_users_item_id}" id="user_frame_{list_users_item_id}" class="bl_user_frame">
+	<div id="bl_user_frame_{list_users_item_id}" class="bl">
+        <button id="user_photo_{list_users_item_id}" onclick="city.abilityCheckSetCurrentUser('{list_users_item_id}');"
+		style="background-image:url({list_users_item_photo})" class="frame user_frame"></button>
+        <div class="delete_pic"></div>
+    </div>
+	<span id="user_frame_new_msg_{list_users_item_id}" href="#null" class="count {list_users_item_new_msg_actived}"
+	onclick="city.setCurrentUser('{list_users_item_id}')" >{list_users_item_new_msg_count}</span>
+
+</li>
+<script>
+    city.addUserToListChat('{list_users_item_id}');
+    preloadImageInsertInDom(['{list_users_item_block_info_photo}']);
+</script>
+
+<!-- bl_3dchat_alt_photo after to #chat_list_people_bl-->
+<div id="user_frame_info_{list_users_item_id}" class="bl_3dchat_alt_photo">
+    <div class="bl_center">
+        <div class="pic">
+            <button id="user_photo_info_{list_users_item_id}" onclick="city.goToProfileUser('{list_users_item_profile_link}');" title="" class="frame" style="background-image: url({list_users_item_block_info_photo});"></button>
+        </div>
+        <div onclick="$(this).closest('.bl_center').find('.btn').click();" class="name">{list_users_item_name_short}</div>
+        <div class="info">{list_users_item_age}{list_users_item_city}</div>
+		<!-- begin_list_users_item_profile_link -->
+        <a onclick="city.goToProfileUser('{list_users_item_profile_link}'); return false;" class="btn" href="">{l_view_profile}</a>
+		<!-- end_list_users_item_profile_link -->
+	</div>
+</div>
+<!-- /bl_3dchat_alt_photo -->
+
+<!-- end_list_users_item -->

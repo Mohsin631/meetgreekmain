@@ -1,0 +1,90 @@
+2021-11-21 04:18:57
+User_id: 0
+Error: E_WARNING
+URL: https://meetgreeksingles.com/
+File: D:\meetgreeksingles_com\_include\lib\db_mysqli.php
+Line: 21
+Message: mysqli_connect(): (HY000/2002): No connection could be made because the target machine actively refused it.
+
+
+Call stack:
+
+File: D:\meetgreeksingles_com\_include\lib\db_mysqli.php (Line: 21)
+Function: mysqli_connect
+
+File: D:\meetgreeksingles_com\_include\lib\db_common.php (Line: 69)
+Class: DB
+Function: driver_connect
+
+File: D:\meetgreeksingles_com\_include\core\start.php (Line: 366)
+Class: DB_Common
+Function: connect
+
+File: D:\meetgreeksingles_com\_include\core\main_start.php (Line: 11)
+Function: include_once
+
+File: D:\meetgreeksingles_com\index.php (Line: 16)
+Function: include
+
+---------
+
+2021-11-21 04:18:59
+User_id: 0
+Error: E_WARNING
+URL: https://meetgreeksingles.com/
+File: D:\meetgreeksingles_com\_include\lib\db_mysqli.php
+Line: 21
+Message: mysqli_connect(): (HY000/2002): No connection could be made because the target machine actively refused it.
+
+
+Call stack:
+
+File: D:\meetgreeksingles_com\_include\lib\db_mysqli.php (Line: 21)
+Function: mysqli_connect
+
+File: D:\meetgreeksingles_com\_include\lib\db_common.php (Line: 69)
+Class: DB
+Function: driver_connect
+
+File: D:\meetgreeksingles_com\_include\core\start.php (Line: 366)
+Class: DB_Common
+Function: connect
+
+File: D:\meetgreeksingles_com\_include\core\main_start.php (Line: 11)
+Function: include_once
+
+File: D:\meetgreeksingles_com\index.php (Line: 16)
+Function: include
+
+---------
+
+2021-11-21 04:19:01
+User_id: 0
+Error: E_WARNING
+URL: https://meetgreeksingles.com/
+File: D:\meetgreeksingles_com\_include\lib\db_mysqli.php
+Line: 21
+Message: mysqli_connect(): (HY000/2002): No connection could be made because the target machine actively refused it.
+
+
+Call stack:
+
+File: D:\meetgreeksingles_com\_include\lib\db_mysqli.php (Line: 21)
+Function: mysqli_connect
+
+File: D:\meetgreeksingles_com\_include\lib\db_common.php (Line: 69)
+Class: DB
+Function: driver_connect
+
+File: D:\meetgreeksingles_com\_include\core\start.php (Line: 366)
+Class: DB_Common
+Function: connect
+
+File: D:\meetgreeksingles_com\_include\core\main_start.php (Line: 11)
+Function: include_once
+
+File: D:\meetgreeksingles_com\index.php (Line: 16)
+Function: include
+
+---------
+

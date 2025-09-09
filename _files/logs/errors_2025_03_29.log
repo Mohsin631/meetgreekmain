@@ -1,0 +1,32 @@
+2025-03-29 20:32:06
+User_id: 0
+Error: E_USER_NOTICE
+URL: https://meetgreeksingles.com/administration/users_approval.php?delete=15,16,17
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/lib/mail.php
+Line: 91
+Message: send_mail(): Can't send mail via mail() function
+
+Call stack:
+
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/lib/mail.php (Line: 91)
+Function: trigger_error
+
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/common.class.php (Line: 422)
+Function: send_mail
+
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/administration/users_approval.php (Line: 34)
+Class: Common
+Function: sendAutomail
+
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/core/main_close.php (Line: 16)
+Class: CUsersResults
+Function: action
+
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/core/administration_close.php (Line: 10)
+Function: include
+
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/administration/users_approval.php (Line: 307)
+Function: include
+
+---------
+

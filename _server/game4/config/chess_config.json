@@ -1,0 +1,7 @@
+{
+    "autoLoad": {
+        "swf": [
+			"gfx/chess_main.swf"
+        ]
+    }
+}

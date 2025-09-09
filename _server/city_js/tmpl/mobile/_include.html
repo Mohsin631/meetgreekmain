@@ -1,0 +1,44 @@
+    <link rel="stylesheet" href="{url_tmpl_city}css/style.css{cache_version_param}" />
+    <!-- begin_landscape_css -->
+    <link rel="stylesheet" href="{url_tmpl_city}css/landscape.css{cache_version_param}" />
+    <!-- end_landscape_css -->
+    <link rel="stylesheet" href="{url_city}tmpl/common/css/jquery.jscrollpane.css{cache_version_param}" />
+
+    <script type="text/javascript" src="{url_city}tmpl/common/js/lib.js{cache_version_param}"></script>
+    <script type="text/javascript" src="{url_city}tmpl/common/js/tools.js{cache_version_param}"></script>
+    <script type="text/javascript" src="{url_city}tmpl/common/js/cash.js{cache_version_param}"></script>
+    <script type="text/javascript" src="{url_city}tmpl/common/js/messages.js{cache_version_param}"></script>
+    <script type="text/javascript" src="{url_city}tmpl/common/js/jquery.jscrollpane.js{cache_version_param}"></script>
+    <script type="text/javascript" src="{url_city}tmpl/common/js/jquery.mousewheel.js{cache_version_param}"></script>
+
+	<script type="text/javascript" src="https://maps.google.com/maps/api/js{google_maps_api_key_for_city}"></script>
+	<!-- https://console.developers.google.com/flows/enableapi?apiid=maps_backend,geocoding_backend,directions_backend,distance_matrix_backend,elevation_backend,places_backend&keyType=CLIENT_SIDE&reusekey=true -->
+
+
+    <script language="javascript" type="text/javascript">
+        var urlMain='{url_main}';
+        var urlMainMobile='{url_main_mobile}';
+        var urlCity='{url_city}';
+        var urlTmpl='{url_tmpl_city}';
+        var urlTmplImages='{url_tmpl_city}images/';
+        var ajax_login_status={xajax_login_status};
+        var appTitle = '{site_title}';
+        var mobileAppLoaded = false;
+        var appVibrationDuration = "{app_vibration_duration}" * 1000;
+        var appCityListUser = {};
+        var appCityLastMsgId = 0;
+    </script>
+
+    <script type="text/javascript" src="{url_tmpl_city}js/script.js{cache_version_param}"></script>
+    <script type="text/javascript" src="{url_tmpl_city}js/city.js{cache_version_param}"></script>
+    <script type="text/javascript" src="{url_tmpl_city}js/interface.js{cache_version_param}"></script>
+    <script type="text/javascript" src="{url_tmpl_city}js/server.js{cache_version_param}"></script>
+    <script type="text/javascript" src="{url_tmpl_city}js/messages.js{cache_version_param}"></script>
+
+    <script language="javascript" type="text/javascript">
+        var city = new CCity('{url_main}', '{url_city}', '{url_tmpl}', '{url_files}', '{url_files_city}', '{cache_version_param}');
+        var cityInterface = new CInterface();
+        var cityTools = new CToolsCity();
+        var postMessages = new CPostMessages();
+        var isPageCity = true;
+    </script>

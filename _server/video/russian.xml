@@ -1,0 +1,8 @@
+<lang>
+	<speed>Скорость</speed>
+	<high>Высокая</high>
+	<medium>Средняя</medium>
+	<low>Низкая</low>
+	<connect>Подключиться</connect>
+	<disconnect>Отключиться</disconnect>
+</lang>

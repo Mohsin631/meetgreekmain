@@ -1,0 +1,9 @@
+<lang>
+	<speed>Speed</speed>
+	<high>High</high>
+	<medium>Medium</medium>
+	<low>Low</low>
+	<connect>Connect</connect>
+	<disconnect>Disconnect</disconnect>
+	<stop>STOP</stop>
+</lang>

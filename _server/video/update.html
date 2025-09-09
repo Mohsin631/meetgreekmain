@@ -1,0 +1,31 @@
+<table id="xajax_video_update" class="video-chat">
+	<col width="17" />
+	<col width="311" />
+	<col width="23" />
+	<tr>
+		<td class="tt" colspan="3">
+			<!--  -->
+		</td>
+	</tr>
+	<tr>
+		<td class="ml"><!--  --></td>
+		<td class="m">
+			<h2><img src="{url_main}_server/video/img/video-chat.gif" width="88" height="44" alt="Video chat" />{l_invitation}</h2>
+			<table>
+				<tr>
+					<td>
+                        {l_the_user} <strong><a target="_blank" href="{url_main}search_results.php?name={name}&display=profile">{name}</a></strong> {l_wants_audiochat}
+					</td>
+				</tr>
+			</table>
+			<div class="buttons">
+                <a href="#" onclick="xajax_video_reject({user_id});"><img src="{url_main}_server/video/img/video-chat-button-reject.png" width="111" height="31" alt="{l_reject}" /></a>
+                <a href="#" onclick="xajax_video_go({user_id}, '{game_url}');"><img src="{url_main}_server/video/img/video-chat-button-chat.png" width="111" height="31" alt="{l_chat_now}" /></a>
+            </div>
+		</td>
+    	<td class="mr"><!--  --></td>
+	</tr>
+	<tr>
+		<td class="bb" colspan="3"><!--  --></td>
+	</tr>
+</table>

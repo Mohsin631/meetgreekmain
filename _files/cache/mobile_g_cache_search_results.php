@@ -1,0 +1,1 @@
+a:2:{s:14:"to_php_alfabet";a:2:{s:50:" AND 2 & (1 << (cast(orientation AS signed) - 1)) ";s:43:"and_2__1_ltlt_castorientation_as_signed_-_1";i:0;s:1:"0";}s:15:"html_block_vars";a:1:{s:14:"arrayKeysCache";a:5:{s:20:"default_order_active";i:20;s:12:"class_indent";i:12;s:18:"users_list_noitems";i:18;s:4:"main";i:4;s:21:"load_page_script_init";i:21;}}}

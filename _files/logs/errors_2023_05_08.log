@@ -1,0 +1,68 @@
+2023-05-08 13:49:19
+User_id: 0
+Error: E_NOTICE
+URL: https://meetgreeksingles.com/index.php?function=call_user_func_array&s=/Index/%09hink%07pp/invokefunction&vars[0]=md5&vars[1][]=HelloThinkPHP21
+File: D:\htdocs\meetgreeksingles_com\_include\lib\lib.php
+Line: 695
+Message: Array to string conversion
+
+Call stack:
+
+File: D:\htdocs\meetgreeksingles_com\_include\current\common.class.php (Line: 3081)
+Function: del_param
+
+File: D:\htdocs\meetgreeksingles_com\_include\current\cheader.class.php (Line: 1523)
+Class: Common
+Function: parseDropDownListLanguage
+
+File: D:\htdocs\meetgreeksingles_com\_include\lib\block.php (Line: 294)
+Class: CHeader
+Function: parseBlock
+
+File: D:\htdocs\meetgreeksingles_com\_include\lib\block.php (Line: 277)
+Class: CHtmlBlock
+Function: parse
+
+File: D:\htdocs\meetgreeksingles_com\_include\core\main_close.php (Line: 19)
+Class: CHtmlBlock
+Function: parse
+
+File: D:\htdocs\meetgreeksingles_com\index.php (Line: 679)
+Function: include
+
+---------
+
+2023-05-08 13:49:25
+User_id: 0
+Error: E_NOTICE
+URL: https://meetgreeksingles.com/index.php?function=call_user_func_array&s=index/%09hink%07pp/invokefunction&vars[0]=md5&vars[1][]=HelloThinkPHP21
+File: D:\htdocs\meetgreeksingles_com\_include\lib\lib.php
+Line: 695
+Message: Array to string conversion
+
+Call stack:
+
+File: D:\htdocs\meetgreeksingles_com\_include\current\common.class.php (Line: 3081)
+Function: del_param
+
+File: D:\htdocs\meetgreeksingles_com\_include\current\cheader.class.php (Line: 1523)
+Class: Common
+Function: parseDropDownListLanguage
+
+File: D:\htdocs\meetgreeksingles_com\_include\lib\block.php (Line: 294)
+Class: CHeader
+Function: parseBlock
+
+File: D:\htdocs\meetgreeksingles_com\_include\lib\block.php (Line: 277)
+Class: CHtmlBlock
+Function: parse
+
+File: D:\htdocs\meetgreeksingles_com\_include\core\main_close.php (Line: 19)
+Class: CHtmlBlock
+Function: parse
+
+File: D:\htdocs\meetgreeksingles_com\index.php (Line: 679)
+Function: include
+
+---------
+

@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		
+		<title>Hair PreView</title>
+		<link href="css/hair_view.css" rel="stylesheet" type="text/css" />
+		<script src="data/ghosts.js"></script>
+		<script src="data/chars.js"></script>
+		<script src="data/caps.js"></script>
+		<script src="js/babylonjs/babylon.min.js"></script>
+		<script src="js/babylonjs/SkeletonController.js"></script>
+    	<script src="js/babylonjs/animation.js"></script>
+		<script src="js/jquery/jquery-2.1.4.min.js"></script>
+		<script src="js/jquery/jquery.timers-1.2.js"></script>
+		<script src="js/ww/loader.js"></script>
+    	<script src="js/device.min.js"></script>
+    	<script src="js/hair_view.js"></script>
+    	<script src="js/character.js"></script>
+    	<script src="js/math.js"></script>
+    	<script src="js/messages.js"></script>
+    	<script src="js/babylonjs/OBJLoader.js"></script>
+    </head>
+    <body id="drop">
+    	<div id="world"></div>
+    	<div id="char_config">
+            <select id="face_anim">
+                        <option value="Base">Base</option>
+                        <option value="Blink">Blink</option>
+                        <option value="Pity">Pity</option>
+                        <option value="Sad">Sad</option>
+                        <option value="Smile">Smile</option>
+                        <option value="Suspicion">Suspicion</option>
+                    </select>
+                    <div id="play_face_anim">[play]</div><br/>
+                    
+    		<select id="char_type">
+                        <option value="male" >male</option>
+                        <option value="male2">male2</option>
+                        <option value="female" selected="selected">female</option>
+                        <option value="female2">female2</option>
+                        <option value="female03">female03</option>
+                        <option value="female05" >female05</option>
+                        <option value="female06">female06</option>
+                        <option value="male05">male05</option>
+                        <option value="male06">male06</option>
+                        <option value="male07">male07</option>
+                        <option value="male07_red">male07_red</option>
+                        <option value="male07_blue">male07_blue</option>
+                        <option value="male07_purple">male07_purple</option>
+                        <option value="female03_purple">female03_purple</option>
+                        <option value="female03_blue">female03_blue</option>
+                        <option value="female05_brown">female05_brown</option>
+                        <option value="female05_purple">female05_purple</option>
+                        <option value="female05_green">female05_green</option>
+                        <option value="male1_purple">male1_purple</option>
+                        <option value="male1_grey">male1_grey</option>
+                        <option value="male2_grey">male2_grey</option>
+                        <option value="male06_purple">male06_purple</option>
+                        <option value="male06_blue">male06_blue</option>
+
+                    </select>
+                    <select id="char_face">
+                        <option value="1.jpg">face1</option>
+                        <option value="2.jpg">face2</option>
+                        <option value="3.jpg">face3</option>
+                        <option value="4.jpg">face4</option>
+                        <option value="5.jpg"  >face5</option>
+                        <option value="6.jpg"  selected="selected" >face6</option>
+                    </select>
+                    <input type="text" id="char_head" value="F1CCBC" />
+                    <input type="submit" id="set_char" value="set"></div>
+    	</div>
+
+    	<div id="parts">
+    		<div id="parts_list"></div>
+    		
+    	</div>
+        <input type="submit" id="set_parts" value="Apply">
+        <input type="submit" id="set_from_json" value="Apply">
+
+    	<textarea id="output"></textarea>
+    	
+    </body>
+</html>

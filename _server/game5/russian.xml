@@ -1,0 +1,12 @@
+<lang>
+	<word name="Your_move">Ваш ход!</word>
+	<word name="Waiting_for_the_opponent">Ожидания хода соперника</word>
+	<word name="Prepare_for_your_next_move">Ваш следующий ход!</word>
+	<word name="Start_Game">Начало игры</word>
+	<word name="Waiting">Ожидайте...</word>
+	<word name="Again">Еще разок?</word>
+	<word name="You_won">Вы выиграли!</word>
+	<word name="You_lost">Вы проиграли.</word>
+	<word name="pool">Б  и  л  ь  я  р  д</word>
+	<word name="vs">против</word>
+</lang>

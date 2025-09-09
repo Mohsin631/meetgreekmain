@@ -1,0 +1,1 @@
+var dummyRecord,canvasRecord,hbRecord,charRecorder,charReplay,tttRecorder,tttReplay,checkersRecorder,checkersReplay,shipwarRecorder,shipwarReplay,reversiRecorder,reversiReplay,chessRecorder,chessReplay,c4Recorder,c4Replay,hbReplay,hbReplayChar;

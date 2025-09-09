@@ -1,0 +1,36 @@
+{header}
+<script>
+    clPages.setData({
+        urlPage:'{url_main}{url_pages}',
+        pageType:'{page_type}',
+        page:'{page_number}'*1,
+        type_order:'{type_order}',
+        tags:'{tags}',
+        only_friends:'{only_friends}'*1,
+        only_live:'{only_live}'*1,
+        uid:'{page_user_id}'*1,
+        guid:'{page_guid}'*1,
+        param:'{page_param}'?'{page_param}':'page',
+        filter:'{page_filter}'*1,
+        isMyFriend:'{page_my_friends}'*1,
+        groupId:'{group_id}'*1,
+        groupType:'{group_type}'
+    });
+    clPages.initList();
+</script>
+{list}
+{users_list}
+
+<script>
+$(function(){
+    <!-- begin_show_gallery_js -->
+    clProfilePhoto.openGallery(false,'{show_photo_id}', false, false, '{show_comment_id}');
+    <!-- end_show_gallery_js -->
+    <!-- begin_show_video_gallery_js -->
+    clProfilePhoto.openGallery(false,'v_{show_video_id}', true, false, '{show_comment_id}');
+    <!-- end_show_video_gallery_js -->
+})
+</script>
+
+
+{footer}

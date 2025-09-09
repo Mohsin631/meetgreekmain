@@ -1,0 +1,8 @@
+{
+    "autoLoad": {
+        "swf": [
+			"gfx/tanks_view.swf",
+			"gfx/tanks_audio.swf"
+        ]
+    }
+}

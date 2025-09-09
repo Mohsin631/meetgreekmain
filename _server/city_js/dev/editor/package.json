@@ -1,0 +1,41 @@
+{
+    "name": "my-app",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@progress/kendo-file-saver": "^1.0.7",
+        "bootstrap": "^4.3.1",
+        "jszip": "^3.2.1",
+        "polished": "^3.4.1",
+        "react": "^16.8.6",
+        "react-dom": "^16.8.6",
+        "react-scripts": "3.0.1",
+        "reactstrap": "^8.0.0",
+        "styled-components": "^4.3.2",
+        "babylon": "^0.87.1",
+        "babylon-collada-loader": "0.0.1",
+        "babylon-obj-loader": "^1.1.3",
+        "babylon-orbit-controls": "^82.1.0"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": "react-app"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
+}

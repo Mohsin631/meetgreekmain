@@ -1,0 +1,13 @@
+<images>
+	<sliderBg>_server/video/images/slide_bg.png</sliderBg>
+	<slider>_server/video/images/slider.png</slider>
+	<connect>_server/video/images/btnConnectBlank.png</connect>
+	<disconnect>_server/video/images/btnDisconnectBlank.png</disconnect>
+	<soundOn>_server/video/images/btnSound.png</soundOn>
+	<soundOff>_server/video/images/btnSoundOff.png</soundOff>
+	<userpicBig>_server/video/images/userpic_big.png</userpicBig>
+	<userpicSmall>_server/video/images/userpic_small.png</userpicSmall>
+	<iconStop>_server/video/images/iconStop.png</iconStop>
+	<speedMarker>_server/video/images/speedMarker.png</speedMarker>	
+	<preloader>_server/video/images/preloader.swf</preloader>	
+</images>

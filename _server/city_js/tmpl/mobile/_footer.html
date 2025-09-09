@@ -1,0 +1,20 @@
+<!-- begin_mobile_app -->
+<script>
+var cacheVersionParam = '{cache_version_param}';
+
+function appPreloaderShow() {
+    $('.app_preloader').show();
+}
+mobileAppLoaded = '{mobile_app_push_notifications}'*1;
+</script>
+<!-- end_mobile_app -->
+
+<!-- begin_mobile_app_android -->
+<script src="{url_tmpl_common_apps}android/cordova.js{cache_version_param}"></script>
+<!-- end_mobile_app_android -->
+
+<!-- begin_mobile_app_ios -->
+<script src="{url_tmpl_common_apps}ios/cordova.js{cache_version_param}"></script>
+<!-- end_mobile_app_ios -->
+</body>
+</html>

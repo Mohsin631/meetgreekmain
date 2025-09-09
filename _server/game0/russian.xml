@@ -1,0 +1,16 @@
+<lang>
+	<word name="Start">Старт!</word>
+	<word name="Your_name">Ваше имя:</word>
+	<word name="Partners_name">Имя партнера:</word>
+	<word name="Game_Over">Конец Игры</word>
+	<word name="Play_again">Играть снова!</word>
+	<word name="Your_move">Ваш ход</word>
+	<word name="move">ход</word>
+	<word name="Waiting_for_the_partner">Ожидание партнера...</word>
+	<word name="Your_partner_is_out_of_game">Ваш партнер вышел из игры...</word>
+	<word name="Throwing">Бросать</word>
+	<word name="Walking">Ходить</word>
+	<word name="Aiming">Прицел</word>
+	<word name="You_Win">Вы Выиграли!!!</word>
+
+</lang>

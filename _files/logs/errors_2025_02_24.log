@@ -1,0 +1,29 @@
+2025-02-24 11:35:02
+User_id: 0
+Error: E_WARNING
+URL: https://meetgreeksingles.com/_cron/cron.php
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/lib/db_mysqli.php
+Line: 21
+Message: mysqli_connect(): (HY000/2002): No such file or directory
+
+Call stack:
+
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/lib/db_mysqli.php (Line: 21)
+Function: mysqli_connect
+
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/lib/db_common.php (Line: 69)
+Class: DB
+Function: driver_connect
+
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/core/start.php (Line: 366)
+Class: DB_Common
+Function: connect
+
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/core/main_start.php (Line: 11)
+Function: include_once
+
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_cron/cron.php (Line: 11)
+Function: include
+
+---------
+

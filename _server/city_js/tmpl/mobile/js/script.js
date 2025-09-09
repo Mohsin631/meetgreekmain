@@ -1,0 +1,1 @@
+var durOpen,durFrame,confirmPopupOpen,confirmCustomPopupOpen,alertPopupOpen,popupClose;

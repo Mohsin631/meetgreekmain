@@ -1,0 +1,162 @@
+2021-10-02 01:19:22
+User_id: 99074
+Error: E_WARNING
+URL: https://meetgreeksingles.com/ajax.php?cmd=photo_add_upload&type=public&set_template_runtime=impact&site_part_runtime=main&site_guid=99074
+File: D:\meetgreeksingles_com\_include\current\nudityfilter.class.php
+Line: 140
+Message: Division by zero
+
+Call stack:
+
+File: D:\meetgreeksingles_com\_include\current\nudityfilter.class.php (Line: 150)
+Class: NudityFilter
+Function: quantifyYCbCr
+
+File: D:\meetgreeksingles_com\_include\current\upload.php (Line: 507)
+Class: NudityFilter
+Function: isPorn
+
+File: D:\meetgreeksingles_com\_include\current\cprofilephoto.class.php (Line: 69)
+Function: uploadphoto
+
+File: D:\meetgreeksingles_com\_include\current\cphotouploadhandler.class.php (Line: 25)
+Class: CProfilePhoto
+Function: photoUpload
+
+File: D:\meetgreeksingles_com\_include\current\fileupload.class.php (Line: 1299)
+Class: CPhotoUploadHandler
+Function: handle_file_upload
+
+File: D:\meetgreeksingles_com\_include\current\fileupload.class.php (Line: 177)
+Class: UploadHandler
+Function: post
+
+File: D:\meetgreeksingles_com\_include\current\fileupload.class.php (Line: 161)
+Class: UploadHandler
+Function: initialize
+
+File: D:\meetgreeksingles_com\ajax.php (Line: 363)
+Class: UploadHandler
+Function: __construct
+
+$_POST = Array
+(
+    [file_name] => 1633126746991_1
+)
+
+$_FILES = Array
+(
+    [file_public] => Array
+        (
+            [name] => Array
+                (
+                    [0] => Bild.PNG
+                )
+
+            [type] => Array
+                (
+                    [0] => image/png
+                )
+
+            [tmp_name] => Array
+                (
+                    [0] => C:\server\tmp\meetgreeksingles.com\php98F4.tmp
+                )
+
+            [error] => Array
+                (
+                    [0] => 0
+                )
+
+            [size] => Array
+                (
+                    [0] => 3524
+                )
+
+        )
+
+)
+
+---------
+
+2021-10-02 01:21:03
+User_id: 99074
+Error: E_WARNING
+URL: https://meetgreeksingles.com/ajax.php?cmd=photo_add_upload&type=public&set_template_runtime=impact&site_part_runtime=main&site_guid=99074
+File: D:\meetgreeksingles_com\_include\current\nudityfilter.class.php
+Line: 140
+Message: Division by zero
+
+Call stack:
+
+File: D:\meetgreeksingles_com\_include\current\nudityfilter.class.php (Line: 150)
+Class: NudityFilter
+Function: quantifyYCbCr
+
+File: D:\meetgreeksingles_com\_include\current\upload.php (Line: 507)
+Class: NudityFilter
+Function: isPorn
+
+File: D:\meetgreeksingles_com\_include\current\cprofilephoto.class.php (Line: 69)
+Function: uploadphoto
+
+File: D:\meetgreeksingles_com\_include\current\cphotouploadhandler.class.php (Line: 25)
+Class: CProfilePhoto
+Function: photoUpload
+
+File: D:\meetgreeksingles_com\_include\current\fileupload.class.php (Line: 1299)
+Class: CPhotoUploadHandler
+Function: handle_file_upload
+
+File: D:\meetgreeksingles_com\_include\current\fileupload.class.php (Line: 177)
+Class: UploadHandler
+Function: post
+
+File: D:\meetgreeksingles_com\_include\current\fileupload.class.php (Line: 161)
+Class: UploadHandler
+Function: initialize
+
+File: D:\meetgreeksingles_com\ajax.php (Line: 363)
+Class: UploadHandler
+Function: __construct
+
+$_POST = Array
+(
+    [file_name] => 1633126848207_2
+)
+
+$_FILES = Array
+(
+    [file_public] => Array
+        (
+            [name] => Array
+                (
+                    [0] => Bild_.JPG
+                )
+
+            [type] => Array
+                (
+                    [0] => image/jpeg
+                )
+
+            [tmp_name] => Array
+                (
+                    [0] => C:\server\tmp\meetgreeksingles.com\php2438.tmp
+                )
+
+            [error] => Array
+                (
+                    [0] => 0
+                )
+
+            [size] => Array
+                (
+                    [0] => 15118
+                )
+
+        )
+
+)
+
+---------
+

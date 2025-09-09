@@ -1,0 +1,8 @@
+{
+    "autoLoad": {
+        "swf": [
+			"gfx/pool_view.swf",
+			"gfx/pool_audio.swf"
+        ]
+    }
+}

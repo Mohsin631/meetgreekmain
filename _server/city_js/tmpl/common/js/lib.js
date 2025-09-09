@@ -1,0 +1,1 @@
+var $win,$doc,cacheJq,isSupportedCopyClipboard,copySelectionText,selectInput,selectText,removeSelectWindowText,copyFieldValue,copyFieldText,getSelectionText,checkFlash,setCookie,$jq,getLoaderCity,getParentIframe,isCityIframe,isCityIframeLoad,cityIframeHideLogo,cityIframeLoad,cityIframeExit,cityIframeSetUrl,cityIframeClick;

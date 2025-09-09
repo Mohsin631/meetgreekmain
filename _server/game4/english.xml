@@ -1,0 +1,15 @@
+<lang>
+	<word name="Start_Game">Start Game</word>
+	<word name="Waiting">Waiting...</word>
+	<word name="chess">Chess</word>
+	<word name="You_won">You won!</word>
+	<word name="You_lost">CHECKMATE! You lost.</word>
+	<word name="Again">Again?</word>
+	<word name="Your_move">Your move!</word>
+	<word name="Waiting_for_the_opponent">Waiting for the opponent...</word>
+	<word name="CHECKMATE">CHECKMATE!</word>
+	<word name="Your_move">Your move!</word>
+	<word name="CHECK_Your_move">CHECK! Your move!</word>
+	<word name="Choose_the_figure_for_the_changing">Choose the figure for the changing!</word>
+	<word name="vs">vs</word>
+</lang>

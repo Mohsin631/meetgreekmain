@@ -1,0 +1,64 @@
+2025-05-19 08:59:34
+User_id: 1
+Error: E_ERROR
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=7&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_pay/stripe/stripe-php-7.57.0/lib/Exception/ApiErrorException.php
+Line: 38
+Message: Uncaught (Status 400) (Request req_N5oFEv7jF2ImQX) Received unknown parameter: line_items[0][product_data]
+  thrown
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-19 17:44:02
+User_id: 1
+Error: E_ERROR
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=7&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_pay/stripe/stripe-php-7.57.0/lib/Exception/ApiErrorException.php
+Line: 38
+Message: Uncaught (Status 400) (Request req_xzO1KoiXuWSIYg) Received unknown parameter: line_items[0][product_data]
+  thrown
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-19 17:44:08
+User_id: 1
+Error: E_ERROR
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=7&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_pay/stripe/stripe-php-7.57.0/lib/Exception/ApiErrorException.php
+Line: 38
+Message: Uncaught (Status 400) (Request req_3WC7L4ltovYOdM) Received unknown parameter: line_items[0][product_data]
+  thrown
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-19 22:25:20
+User_id: 1
+Error: E_ERROR
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=7&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_pay/stripe/stripe-php-7.57.0/lib/Exception/ApiErrorException.php
+Line: 38
+Message: Uncaught (Status 400) (Request req_9UVVzXVm5DX8dL) Received unknown parameter: line_items[0][product_data]
+  thrown
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+

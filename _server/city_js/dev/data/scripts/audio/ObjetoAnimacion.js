@@ -1,0 +1,1 @@
+var FuncionesTiempo,ObjetoAnimacion,ObjetoAnimacion_Animacion,ObjetoAnimacion_Rand;

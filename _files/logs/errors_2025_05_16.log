@@ -1,0 +1,1242 @@
+2025-05-16 13:20:17
+User_id: 1
+Error: E_ERROR
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=9&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_pay/stripe/stripe-php-7.57.0/lib/ApiRequestor.php
+Line: 342
+Message: Uncaught No API key provided.  (HINT: set your API key using "Stripe::setApiKey(<API-KEY>)".  You can generate API keys from the Stripe web interface.  See https://stripe.com/api for details, or email support@stripe.com if you have any questions.
+  thrown
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-16 13:20:30
+User_id: 1
+Error: E_ERROR
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=9&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_pay/stripe/stripe-php-7.57.0/lib/ApiRequestor.php
+Line: 342
+Message: Uncaught No API key provided.  (HINT: set your API key using "Stripe::setApiKey(<API-KEY>)".  You can generate API keys from the Stripe web interface.  See https://stripe.com/api for details, or email support@stripe.com if you have any questions.
+  thrown
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-16 13:37:34
+User_id: 1
+Error: E_ERROR
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=9&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_pay/stripe/stripe-php-7.57.0/lib/ApiRequestor.php
+Line: 342
+Message: Uncaught No API key provided.  (HINT: set your API key using "Stripe::setApiKey(<API-KEY>)".  You can generate API keys from the Stripe web interface.  See https://stripe.com/api for details, or email support@stripe.com if you have any questions.
+  thrown
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-16 14:02:02
+User_id: 1
+Error: E_NOTICE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=9&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_pay/stripe/before.php
+Line: 1
+Message: Undefined index: business
+
+Call stack:
+
+---------
+
+2025-05-16 14:02:18
+User_id: 1
+Error: E_NOTICE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=9&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_pay/stripe/before.php
+Line: 1
+Message: Undefined index: business
+
+Call stack:
+
+---------
+
+2025-05-16 14:02:27
+User_id: 1
+Error: E_NOTICE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=7&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_pay/stripe/before.php
+Line: 1
+Message: Undefined index: business
+
+Call stack:
+
+---------
+
+2025-05-16 17:49:29
+User_id: 1
+Error: E_ERROR
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=9&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_pay/stripe/stripe-php-7.57.0/lib/ApiRequestor.php
+Line: 342
+Message: Uncaught No API key provided.  (HINT: set your API key using "Stripe::setApiKey(<API-KEY>)".  You can generate API keys from the Stripe web interface.  See https://stripe.com/api for details, or email support@stripe.com if you have any questions.
+  thrown
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-16 17:50:45
+User_id: 1
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=9&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected end of file
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-16 17:54:40
+User_id: 1
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=9&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected '<<' (T_SL)
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-16 17:57:05
+User_id: 1
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=9&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected '<<' (T_SL)
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-16 18:05:27
+User_id: 1
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=9&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected '<<' (T_SL)
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-16 18:08:25
+User_id: 1
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=9&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected 'include_once' (T_INCLUDE_ONCE)
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-16 18:09:16
+User_id: 1
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=9&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected '<<' (T_SL)
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-16 18:12:09
+User_id: 1
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=9&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected '<<' (T_SL)
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-16 18:14:44
+User_id: 1
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=9&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected '<<' (T_SL)
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-16 18:14:47
+User_id: 1
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=9&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected '<<' (T_SL)
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-16 18:16:32
+User_id: 1
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=9&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected end of file
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-16 18:16:35
+User_id: 1
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=9&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected end of file
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-16 18:16:37
+User_id: 1
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=9&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected end of file
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-16 18:16:53
+User_id: 1
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=7&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected end of file
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-16 18:19:07
+User_id: 1
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=7&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected end of file
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-16 18:19:10
+User_id: 1
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=7&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected end of file
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-16 18:49:32
+User_id: 1
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=7&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected end of file
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-16 18:53:39
+User_id: 0
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=7&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected end of file
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-16 18:53:42
+User_id: 0
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=7&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected end of file
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-16 18:54:39
+User_id: 1
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=9&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected end of file
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-16 18:57:25
+User_id: 1
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=9&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected end of file
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-16 18:57:29
+User_id: 1
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=9&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected end of file
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-16 18:57:31
+User_id: 1
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=9&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected end of file
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-16 18:57:31
+User_id: 1
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=9&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected end of file
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-16 18:57:32
+User_id: 1
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=9&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected end of file
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-16 18:57:32
+User_id: 1
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=9&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected end of file
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-16 18:57:32
+User_id: 1
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=9&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected end of file
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-16 18:57:32
+User_id: 1
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=9&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected end of file
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-16 18:57:32
+User_id: 1
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=9&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected end of file
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-16 19:00:12
+User_id: 1
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=9&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected end of file
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-16 19:00:16
+User_id: 1
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=9&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected end of file
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-16 19:00:16
+User_id: 1
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=9&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected end of file
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-16 19:00:17
+User_id: 1
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=9&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected end of file
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-16 19:00:17
+User_id: 1
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=9&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected end of file
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-16 19:00:17
+User_id: 1
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=9&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected end of file
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-16 19:00:17
+User_id: 1
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=9&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected end of file
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-16 19:00:17
+User_id: 1
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=9&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected end of file
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-16 19:00:17
+User_id: 1
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=9&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected end of file
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-16 19:00:18
+User_id: 1
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=9&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected end of file
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-16 19:00:18
+User_id: 1
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=9&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected end of file
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-16 19:00:18
+User_id: 1
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=9&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected end of file
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-16 19:00:18
+User_id: 1
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=9&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected end of file
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-16 19:00:18
+User_id: 1
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=9&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected end of file
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-16 19:00:18
+User_id: 1
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=9&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected end of file
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-16 19:00:18
+User_id: 1
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=9&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected end of file
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-16 19:00:19
+User_id: 1
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=9&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected end of file
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-16 20:44:45
+User_id: 1
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=9&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected end of file
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-16 21:33:16
+User_id: 1
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=9&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected end of file
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-16 21:33:26
+User_id: 1
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=9&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected end of file
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-16 21:33:26
+User_id: 1
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=9&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected end of file
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-16 21:33:26
+User_id: 1
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=9&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected end of file
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-16 21:33:26
+User_id: 1
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=9&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected end of file
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-16 21:33:45
+User_id: 0
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=9&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected end of file
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-16 21:34:15
+User_id: 1
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=9&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected end of file
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-16 21:36:20
+User_id: 1
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=9&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected end of file
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-16 21:36:24
+User_id: 1
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=9&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected end of file
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-16 21:45:19
+User_id: 1
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=9&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected end of file
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-16 21:45:19
+User_id: 1
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=9&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected end of file
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-16 21:45:19
+User_id: 1
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=9&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected end of file
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-16 22:18:11
+User_id: 1
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=9&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected end of file
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-16 22:18:15
+User_id: 1
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=9&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected end of file
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-16 22:18:15
+User_id: 1
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=9&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected end of file
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-16 22:18:18
+User_id: 1
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=9&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected end of file
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-16 22:18:31
+User_id: 1
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=7&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected end of file
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-16 22:19:54
+User_id: 1
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=7&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected end of file
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-16 22:19:57
+User_id: 1
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=7&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected end of file
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-16 22:19:59
+User_id: 1
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=7&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected end of file
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-16 22:19:59
+User_id: 1
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=7&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected end of file
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-16 22:19:59
+User_id: 1
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=7&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected end of file
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-16 22:20:00
+User_id: 1
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=7&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected end of file
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-16 22:20:00
+User_id: 1
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=7&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected end of file
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-16 22:20:00
+User_id: 1
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=7&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected end of file
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-16 22:20:00
+User_id: 1
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=7&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected end of file
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-16 22:20:00
+User_id: 1
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=7&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected end of file
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-16 22:20:00
+User_id: 1
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=7&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected end of file
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-16 22:21:02
+User_id: 1
+Error: E_ERROR
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=7&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_pay/stripe/stripe-php-7.57.0/lib/Exception/ApiErrorException.php
+Line: 38
+Message: Uncaught (Status 400) (Request req_DsIes92qNp7KoR) Invalid currency: euro. Stripe currently supports these currencies: usd, aed, afn, all, amd, ang, aoa, ars, aud, awg, azn, bam, bbd, bdt, bgn, bhd, bif, bmd, bnd, bob, brl, bsd, bwp, byn, bzd, cad, cdf, chf, clp, cny, cop, crc, cve, czk, djf, dkk, dop, dzd, egp, etb, eur, fjd, fkp, gbp, gel, gip, gmd, gnf, gtq, gyd, hkd, hnl, hrk, htg, huf, idr, ils, inr, isk, jmd, jod, jpy, kes, kgs, khr, kmf, krw, kwd, kyd, kzt, lak, lbp, lkr, lrd, lsl, mad, mdl, mga, mkd, mmk, mnt, mop, mur, mvr, mwk, mxn, myr, mzn, nad, ngn, nio, nok, npr, nzd, omr, pab, pen, pgk, php, pkr, pln, pyg, qar, ron, rsd, rub, rwf, sar, sbd, scr, sek, sgd, shp, sle, sos, srd, std, szl, thb, tjs, tnd, top, try, ttd, twd, tzs, uah, ugx, uyu, uzs, vnd, vuv, wst, xaf, xcd, xcg, xof, xpf, yer, zar, zmw, usdc, btn, ghs, eek, lvl, svc, vef, ltl, sll, mro
+  thrown
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-16 22:22:26
+User_id: 1
+Error: E_ERROR
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=7&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTE=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_pay/stripe/stripe-php-7.57.0/lib/Exception/ApiErrorException.php
+Line: 38
+Message: Uncaught (Status 400) (Request req_mN3TgV461xUmEO) You cannot use `line_items.amount`, `line_items.currency`, `line_items.name`, `line_items.description`, or `line_items.images` in this API version. Please use `line_items.price` or `line_items.price_data`. Please see https://stripe.com/docs/payments/checkout/migrating-prices for more information.
+  thrown
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+

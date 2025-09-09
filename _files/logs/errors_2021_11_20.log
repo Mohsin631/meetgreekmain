@@ -1,0 +1,73 @@
+2021-11-20 03:32:16
+User_id: 0
+Error: E_ERROR
+URL: https://meetgreeksingles.com/_cron/cron.php
+File: D:\meetgreeksingles_com\_include\lib\db_mysqli.php
+Line: 37
+Message: Out of memory (allocated 2097152) (tried to allocate 20480 bytes)
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2021-11-20 21:30:21
+User_id: 0
+Error: E_WARNING
+URL: https://meetgreeksingles.com/feeds
+File: D:\meetgreeksingles_com\_include\lib\lib.php
+Line: 463
+Message: session_write_close(): write failed: Invalid argument (22)
+
+Call stack:
+
+File: D:\meetgreeksingles_com\_include\lib\lib.php (Line: 463)
+Function: session_write_close
+
+File: D:\meetgreeksingles_com\_include\current\pwa.class.php (Line: 52)
+Function: set_session
+
+File: D:\meetgreeksingles_com\_include\core\start.php (Line: 375)
+Class: PWA
+Function: setModePwa
+
+File: D:\meetgreeksingles_com\_include\core\main_start.php (Line: 11)
+Function: include_once
+
+File: D:\meetgreeksingles_com\router.php (Line: 9)
+Function: include
+
+---------
+
+2021-11-20 21:30:31
+User_id: 0
+Error: E_ERROR
+URL: https://meetgreeksingles.com/
+File: D:\meetgreeksingles_com\_include\lib\db_mysqli.php
+Line: 37
+Message: Out of memory (allocated 2097152) (tried to allocate 20480 bytes)
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2021-11-20 21:32:59
+User_id: 0
+Error: E_ERROR
+URL: https://meetgreeksingles.com/wordpress/
+File: D:\meetgreeksingles_com\_include\lib\db_mysqli.php
+Line: 37
+Message: Out of memory (allocated 2097152) (tried to allocate 4096 bytes)
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+

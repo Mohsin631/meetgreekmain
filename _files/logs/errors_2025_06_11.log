@@ -1,0 +1,30 @@
+2025-06-11 10:02:28
+User_id: 1
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=7&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS9tL3VwZ3JhZGU=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) or const (T_CONST)
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-06-11 10:02:28
+User_id: 1
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=7&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS9tL3VwZ3JhZGU=
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) or const (T_CONST)
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+

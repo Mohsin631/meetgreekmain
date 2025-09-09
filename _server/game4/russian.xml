@@ -1,0 +1,15 @@
+<lang>
+	<word name="Start_Game">Начало игры</word>
+	<word name="Waiting">Ожидайте...</word>
+	<word name="chess">Шахматы</word>
+	<word name="You_won">Вы выиграли!</word>
+	<word name="You_lost">ШАХ И МАТ! Вы проиграли.</word>
+	<word name="Again">Еще разок?</word>
+	<word name="Your_move">Ваш ход!</word>
+	<word name="Waiting_for_the_opponent">Ожидания хода соперника</word>
+	<word name="CHECKMATE">ШАХ И МАТ!</word>
+	<word name="Your_move">Ваш ход!</word>
+	<word name="CHECK_Your_move">ШАХ! Ваш ход!</word>
+	<word name="Choose_the_figure_for_the_changing">Выберите замену фигуры!</word>
+	<word name="vs">против</word>
+</lang>

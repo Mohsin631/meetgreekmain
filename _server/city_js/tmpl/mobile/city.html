@@ -1,0 +1,427 @@
+<style id="style"></style>
+<script>
+    var initCityPage=true;
+    var cityLocationLinkPage = '{city_location_link_page}';
+	var urlCityImages='{url_tmpl_city}images/';
+    var urlPageLogin='{url_login_page}';
+    var isWebglDetect = webglDetect();
+    var cityCash = CCash('{last_step}');
+    var cityServer = CServer('{url_city}');
+    city.initLocation({cur_user_id}, {cur_user_data}, {users_list}, {is_load_city}, {number_users_visitors}, '{cur_user_to}', '{last_msg_id}', {number_rooms}, '{im_history_messages}', '{option_tmpl_set}', '{url_home_page}', {is_demo}, '{google_maps_api_key}', '{path_pano}', {custom_data_location});
+    city.setData({showDevInfo : '{show_dev_info}'*1,
+                  debugBot : '{debug_bot}'*1,
+                  mobile : '{is_mobile}'*1,
+                  isApp : '{is_app}'*1,
+                  loadErrorLicense: '{load_error_license}',
+                  galleryImages : {gallery_images},
+                  isGalleryUploading : '{is_gallery_uploading}'*1,
+				  logo_params : {logo_params},
+				  link_place : {links_place},
+                  url_site : '{url_site}',
+                  translate : {
+                        reset: '{j_reset}',
+                        place_ships : '{j_place_ships}',
+                        cant_place_ships : '{j_cant_place_ships}',
+                        shoot_ship : '{j_shoot_ship}'
+                  },
+                  optionTmplName: '{option_tmpl_name}'
+              });
+    city.langParts = {title_exit : '{j_leave_now}',
+                      desc_exit : '{j_your_location_will_be_remembered}',
+                      title_changeRoom : '{j_change_room}',
+                      desc_changeRoom : '{j_all_rooms_are_different_as_well_as_their_users}',
+                      title_close_choose_avatar : '{j_discard_changes}',
+                      desc_close_choose_avatar : '{j_are_you_sure_you_want_to_discard_your_changes}',
+                      title_close_choose_avatar : '{j_discard_changes}',
+                      desc_close_choose_avatar : '{j_are_you_sure_you_want_to_discard_your_changes}',
+                      title_close_change_room : '{j_discard_changes}',
+                      desc_close_change_room : '{j_are_you_sure_you_want_to_discard_your_changes}',
+                      title_error_license : '{j_error_license_title}',
+                      desc_error_license : '{j_error_license_signature}',
+                      title_error_media_server : '{j_error_media_server_title}',
+                      desc_error_media_server : '{j_error_media_server_signature}',
+					  now_in_this_place : '{j_now_in_this_place}',
+					  now_in_this_place_full : '{j_now_in_this_place_full}',
+					  now_in_this_place_one : '{j_now_in_this_place_one}',
+					  now_in_this_place_full_one : '{j_now_in_this_place_full_one}',
+					  location_is_full : '{j_this_location_is_full_please_choose_another_location_on_the_map}',
+					  server_error : '{j_server_error_try_again}',
+                      oops : '{j_oops}',
+                      alert_success : '{j_alert_success}',
+                      finish_title : '{j_congratulations}',
+                      finish_signature : '{j_you_have_finished_this_level_successfully}',
+                      start_title : '{j_here_you_started}',
+                      start_signature : '{j_now_find_your_way_to_the_final_point}',
+                      game_in_progress_title : '{j_game_in_progress_title}',
+                      game_in_progress : '{j_game_in_progress}',
+                      partners_turn_title : '{j_partners_turn_title}',
+                      partners_turn : '{j_partners_turn}',
+                      player_joined_title : '{j_player_joined_title}',
+                      player_joined : '{j_player_joined}',
+                      comp_joined_title : '{j_comp_joined_title}',
+                      comp_joined : '{j_comp_joined}',
+                      game_reset_title : '{j_game_reset_title}',
+                      game_reset : '{j_game_reset}',
+                      clear_the_board : '{j_clear_the_board}',
+                      cant_reset_title : '{j_cant_reset_title}',
+                      cant_reset : '{j_cant_reset}',
+                      false_start_title : '{j_false_start_title}',
+                      false_start : '{j_false_start}',
+                      game_won_title : '{j_game_won_title}',
+                      game_won : '{j_game_won}',
+                      game_lose_title : '{j_game_lose_title}',
+                      game_lose : '{j_game_lose}',
+                      leftgame_title : '{j_leftgame_title}',
+                      leftgame : '{j_leftgame}',
+                      reseted_title : '{j_reseted_title}',
+                      reseted : '{j_reseted}',
+                      game_draw_title : '{j_game_draw_title}',
+                      game_draw : '{j_game_draw}',
+                      enterHouse_title : 'enterHouse title',
+                      enterHouse : 'enterHouse?',
+                      exitHouse_title : 'exitHouse title',
+                      exitHouse : 'exitHouse?',
+                      toFloor1_title : 'toFloor1 title',
+                      toFloor1 : 'toFloor1?',
+                      toFloor2_title : 'toFloor2 title',
+                      toFloor2 : 'toFloor2?',
+                      toFloor3_title : 'toFloor3 title',
+                      toFloor3 : 'toFloor3?',
+                      wrongway_title : '{j_wrong_way}',
+                      wrongway : '{j_please_turn_180_degrees_because_you_are_going_backwards}',
+                      flipDevice : '{j_flip_the_mobile_device}',
+                      landscapeMode : '{j_landscape_mode}',
+                      no_panorama_found: '{j_no_panorama_found}',
+                      chat_not_open_user_has_left_city: '{j_chat_not_open_user_has_left_city}',
+                      keyboard_send : '{j_keyboard_send}',
+                      keyboard_save : '{j_keyboard_save}',
+    };
+
+    cityInterface.setData({kbLayout : '{lang_loaded}'});
+
+    cityTools.langParts = {server_error : '{j_server_error_try_again}',
+                           are_you_sure : '{j_are_you_sure}',
+                           all_your_changes_will_be_lost : '{j_all_your_changes_will_be_lost}',
+    };
+
+    <!-- begin_open_from_chat -->
+    $(function(){
+        var $userFrom=$('#user_frame_'+'{open_from_chat_user}');
+        if($userFrom[0]){
+            cityInterface.openKeyboard('{open_from_chat_user}',0,1);
+        }
+    })
+    <!-- end_open_from_chat -->
+
+</script>
+
+<div id="bl_city" class="mobile_keyboard">
+	<div tabindex="-1" id="share_link_place_value" class="input_share_link_value"/></div>
+    <div class="bs_main" id="browsers_support">
+		<div class="bl">
+			<div class="txt">{l_3d_support_required}</div>
+			<ul>
+				<li><a href="http://www.google.com/chrome/" target=_blank><span class="icons_browser chrome"></span>Chrome</a></li>
+				<li><a href="https://www.mozilla.org/en-US/firefox/new/" target=_blank><span class="icons_browser firefox"></span>Firefox</a></li>
+				<li><a href="http://www.opera.com/" target=_blank><span class="icons_browser opera"></span>Opera</a></li>
+				<li><a href="https://www.apple.com/safari/"  target=_blank><span class="icons_browser safari"></span>Safari</a></li>
+			</ul>
+		</div>
+    </div>
+    <div class="layer_change_pano" id="layer_change_pano"></div>
+
+    <div id="loading_screen" oncontextmenu="return false;">
+        <div class="loading_screen_box to_show">
+            <div class="wrap_box_logo">
+                <img data-id="{logo_id}" style="opacity:0;"  src="{logo_big}" class="logo_big logo_img" id="logo"/>
+            </div>
+            <div id="loading_progress_wrap" class="loading_progress_wrap_big">
+                <div id="loading_progress"></div>
+            </div>
+        </div>
+    </div>
+    <div class="app_preloader" oncontextmenu="return false;">
+        <div class="app_preloader_box to_hide">
+            <img onload="$('.app_preloader_box').toggleClass('to_hide to_show', 0);" src="{header_url_logo_mobile}"/>
+            <div class="loader_page">
+                <div class="spinner spinnerw center">
+                    <div class="spinner-blade"></div>
+                    <div class="spinner-blade"></div>
+                    <div class="spinner-blade"></div>
+                    <div class="spinner-blade"></div>
+                    <div class="spinner-blade"></div>
+                    <div class="spinner-blade"></div>
+                    <div class="spinner-blade"></div>
+                    <div class="spinner-blade"></div>
+                    <div class="spinner-blade"></div>
+                    <div class="spinner-blade"></div>
+                    <div class="spinner-blade"></div>
+                    <div class="spinner-blade"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mobile_keyboard_iframe part_to_hide">
+        <iframe id="myIFrame" name="frame_city" src="" frameborder="0" class="frame"></iframe>
+    </div>
+    <!--<div id="debug" style="border:1px solid red; position:absolute; top:20%; left:0; z-index:100; width:50%; color:#0000; /*font-size: 5vw;*/"></div>-->
+
+    <div class="mobile_keyboard_list_people part_to_hide">
+		<ul id="chat_list_people">
+            {list_users_chat}
+		</ul>
+	</div>
+
+    <!-- keyboard -->
+
+    <div class="bl_3dcity_mobile_keyboard to_hide {lang_loaded} part_to_hide">
+        <div id="bl_chat_msg_box" class="bl_chat_msg">
+            {list_msg_users_chat}
+			<div id="msg_text_bl" class="item answer_now box_send_msg">
+				<div class="bl">
+					<div class="bl_msg use_height_btn">
+                        <div class="pic chat_msg_wh"><img class="message_user_photo" src="{main_photo}" alt="" /></div>
+                        <span id="msg_text_box"  class="msg scroll">
+                            <span id="msg_text" class="scroll_x  use_height_btn"><span class="system_cr">|</span></span>
+						</span>
+                    </div>
+				</div>
+				<div class="cl"></div>
+			</div>
+        </div>
+
+        <div id="btn_keyboard" class="btn_keyboard">
+        <!-- begin_keyboard_row -->
+        <div class="row_button round-button small_letter {keyboard_row_class}">
+            <!-- begin_keyboard_row_arrow -->
+            <div class="frame fr_arrow_up"><div class="round-button-circle arrow_up"><a id="keyboard_upper" href="#upper" class="round-button"></a></div></div>
+            <!-- end_keyboard_row_arrow -->
+
+            <!-- begin_keyboard_row_item -->
+            <div class="frame"><div class="round-button-circle"><a data-num="{keyboard_row_item_num}" data-char="{keyboard_row_item_char}" href="#null" class="round-button char">{keyboard_row_item_char}</a></div></div>
+            <!-- end_keyboard_row_item -->
+
+            <!-- begin_keyboard_row_backspace -->
+            <div class="frame fr_arrow_up"><div class="round-button-circle backspace"><a href="#backspace" class="round-button"></a></div></div>
+            <!-- end_keyboard_row_backspace -->
+
+            <div class="cl"></div>
+        </div>
+        <!-- end_keyboard_row -->
+        <div class="round-button width_center">
+            <div class="frame space switch"><a id="keyboard_num" href="#num" class="round-button-oval switch_abc"><span>.?123</span></a></div>
+            <div class="frame space"><a href="#space" class="round-button-oval"><span>{l_keyboard_space}</span></a></div>
+            <div class="frame space switch last"><a href="#send" class="round-button-oval"><span>{l_keyboard_send}</span></a></div>
+            <div class="cl"></div>
+        </div>
+        </div>
+    </div>
+    <!-- /keyboard -->
+
+    <div class="bl_nav part_to_hide">
+        <a id="icon_nav" class="icon_nav" href="#null"><img class="img_nav" src="{url_tmpl_city}images/icon-nav.svg" alt="" /></a>
+        <div class="bl_markers">
+            <div id="bl_marker_map" class="bl_marker_map">
+                <div class="pl">
+                    <img oncontextmenu="return false;" src="{url_tmpl_city}images/icon_marker_map.svg" alt="" />
+                </div>
+            </div>
+
+            <div id="share_link_place_bl" class="bl_link_map">
+                <div id="share_link_place" class="pl">
+                    <img oncontextmenu="return false;" src="{url_tmpl_city}images/icon_link_map.svg" alt="" />
+                </div>
+				<div id="share_link_place_tooltip" class="tooltip_link_map to_hide">
+					<div class="decor"></div>
+                    <img class="img_ok" src="{url_tmpl_city}images/icon_check_model.svg" alt="" />
+					<span tabindex="-1"  id="share_link_place_span">{l_link_copied_to_clipboard}</span>
+				</div>
+            </div>
+        </div>
+
+        <div id="bl_nav_popup" class="to_hide">
+            <div class="bl_nav_popup" >
+                <div class="items">
+                    <div class="bl" >
+                        <a href="#null" id="link_btn_choose_rooms">
+                            <img class="img_nav_popup" src="{url_tmpl_city}images/icon_rooms.svg" alt="" />
+                            <span><em>{l_rooms}</em></span>
+                        </a>
+                    </div>
+                    <div class="bl">
+                        <a href="" id="city_exit">
+                            <img class="img_nav_popup" src="{url_tmpl_city}images/icon_exit.svg" alt="" />
+                            <span><em>{l_exit}</em></span>
+                        </a>
+                    </div>
+                    <div class="cl"></div>
+                </div>
+            </div>
+        </div>
+
+        <div id="bl_layer_btn_choose_rooms" class="bl_layer_btn_choose_rooms" >
+	    	<div class="bl_layer_for_btn" >
+	        	<div class="bl_layer_btn">
+	        		<div class="cont">
+	        		<div class="scroll-pane-rooms">
+	        			<ul>
+                            <!-- begin_room_item_js -->
+                            <script>
+                                city.logoUrl['{room_item_id}']='{room_item_logo_url}';
+                                city.locationUrl['{room_item_id}']='{room_item_location_url}';
+                                city.locationUrlIframe['{room_item_id}']='{room_item_location_url_iframe}';
+                                city.locationSeoTitle['{room_item_id}']='{room_item_location_seo_title}';
+                            </script>
+                            <!-- end_room_item_js -->
+                            <!-- begin_room_item -->
+	        				<li id="room_choose_{room_item_id}">
+		                    	<div id="room_count_{room_item_id}" class="count_users">{room_item_count}</div>
+	        					<div style="position: relative;" onclick="city.changeRoom('{room_item_id}'*1)">
+	        						<img src="{url_city}tmpl/common/rooms/{room_item_id}.jpg" alt="" />
+	        						<a onclick="return false;" id="room_{room_item_id}" data-id="{room_item_id}" class="frame_room frame <!-- begin_room_item_selected -->selected<!-- end_room_item_selected -->" href=""></a>
+	        					</div>
+                                <!-- begin_room_item_game -->
+                                <div class="room_game">{l_game}</div>
+                                <!-- end_room_item_game -->
+	        					<span class="tick  <!-- begin_room_item_name_selected -->selected<!-- end_room_item_name_selected -->"><em>{room_item_name}</em></span>
+	        				</li>
+                            <!-- end_room_item -->
+	        			</ul>
+	        		</div>
+	        		</div>
+	        	</div>
+	    	</div>
+    	</div>
+
+    </div>
+
+    <div class="popup_confirm bl_layer_btn_leave" id="popup_leave">
+	   	<div class="bl_layer_for_btn" >
+	       	<div class="bl_layer_btn">
+	       		<div class="bl">
+	   				<strong class="title"></strong>
+	   				<span class="signature"></span>
+	       		</div>
+	       		<div class="func">
+	       			<a class="icon_cancel" href="#null"><span class="cancel_hover"></span></a>
+	       			<a class="icon_check" href="#null"><span class="check_hover"></span></a>
+	       		</div>
+	       	</div>
+	   	</div>
+    </div>
+
+    <!-- bl_loader_object -->
+    <div id="bl_loader_object" class="bl_loader_object one_loader_object">
+        <div class="loader_obj">
+            <div class="spinner center">
+            <div class="spinner-blade"></div>
+            <div class="spinner-blade"></div>
+            <div class="spinner-blade"></div>
+            <div class="spinner-blade"></div>
+            <div class="spinner-blade"></div>
+            <div class="spinner-blade"></div>
+            <div class="spinner-blade"></div>
+            <div class="spinner-blade"></div>
+            <div class="spinner-blade"></div>
+            <div class="spinner-blade"></div>
+            <div class="spinner-blade"></div>
+            <div class="spinner-blade"></div>
+            </div>
+        </div>
+    </div>
+    <!-- /bl_loader_object -->
+
+	<!-- pp_map -->
+	<div id="pp_google_map" class="frame_pp_map to_hide">
+		<div class="pp_3dcity_frm pp_map">
+			<div class="pp_3dcity_frm_cont">
+				<div class="func">
+        			<a onclick="city.closeMap(); return false;" href="" class="icon_cancel">
+        			<span class="cancel_hover"></span></a>
+        		</div>
+				<!--<iframe src="{url_tmpl_city}map.html" frameborder="0" class="map_location"/></iframe>-->
+				<div id="pp_google_map_location" class="map_location"></div>
+				<div id="pp_google_map_location_choice">
+					<div class="bl_loader_object one_loader_object" style="display:block;">
+						<div class="loader_obj">
+							<div class="spinner center">
+							<div class="spinner-blade"></div>
+							<div class="spinner-blade"></div>
+							<div class="spinner-blade"></div>
+							<div class="spinner-blade"></div>
+							<div class="spinner-blade"></div>
+							<div class="spinner-blade"></div>
+							<div class="spinner-blade"></div>
+							<div class="spinner-blade"></div>
+							<div class="spinner-blade"></div>
+							<div class="spinner-blade"></div>
+							<div class="spinner-blade"></div>
+							<div class="spinner-blade"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- /pp_map -->
+
+
+</div>
+<div id="template">
+    <!-- begin_prepare_template -->
+    {list_users_chat_item}
+    {list_msg_item}
+    <!-- end_prepare_template -->
+    <div id="loader_city">
+        <div class="spinner center">
+        <div class="spinner-blade"></div>
+        <div class="spinner-blade"></div>
+        <div class="spinner-blade"></div>
+        <div class="spinner-blade"></div>
+        <div class="spinner-blade"></div>
+        <div class="spinner-blade"></div>
+        <div class="spinner-blade"></div>
+        <div class="spinner-blade"></div>
+        <div class="spinner-blade"></div>
+        <div class="spinner-blade"></div>
+        <div class="spinner-blade"></div>
+        <div class="spinner-blade"></div>
+        </div>
+    </div>
+
+    <div id="template_info_object" class="object_info frm_scroll to_hide">
+        <div class="bl_center">
+            <div class="border">
+            <div class="pic">
+                <div class="frame">
+                    <iframe class="to_hide" src="" frameborder="0" allowfullscreen></iframe>
+                    <img onmousedown="return false;" oncontextmenu="return false;"  title="" class="to_hide" src=""></img>
+                    <div class="loader_obj">
+                        <div class="spinner center">
+                        <div class="spinner-blade"></div>
+                        <div class="spinner-blade"></div>
+                        <div class="spinner-blade"></div>
+                        <div class="spinner-blade"></div>
+                        <div class="spinner-blade"></div>
+                        <div class="spinner-blade"></div>
+                        <div class="spinner-blade"></div>
+                        <div class="spinner-blade"></div>
+                        <div class="spinner-blade"></div>
+                        <div class="spinner-blade"></div>
+                        <div class="spinner-blade"></div>
+                        <div class="spinner-blade"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div onclick="$(this).closest('.bl_center').find('.btn').click();" class="name"></div>
+            <div class="info"></div>
+            <a class="btn" target="_blank" href=""></a>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="time_animate" style="opacity:0;"></div>
+<div id="city_chat_update"></div>

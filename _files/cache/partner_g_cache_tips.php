@@ -1,0 +1,1 @@
+a:2:{s:14:"to_php_alfabet";a:1:{s:16:"footer_copyright";s:16:"footer_copyright";}s:15:"html_block_vars";a:1:{s:14:"arrayKeysCache";a:8:{s:8:"language";i:8;s:8:"template";i:8;s:4:"view";i:4;s:4:"auth";i:4;s:4:"main";i:4;s:4:"show";i:4;s:4:"hide";i:4;s:8:"question";i:8;}}}

@@ -1,0 +1,242 @@
+2022-11-22 08:11:07
+User_id: 99121
+Error: E_WARNING
+URL: https://meetgreeksingles.com/m/join.php?&set_template_mobile_runtime=impact_mobile&site_part_runtime=mobile&site_guid=0
+File: D:\htdocs\meetgreeksingles_com\_include\current\smtp.class.php
+Line: 144
+Message: stream_socket_client(): unable to connect to mail.chameleonintranet.com:25025 (A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+)
+
+Call stack:
+
+File: D:\htdocs\meetgreeksingles_com\_include\current\smtp.class.php (Line: 144)
+Function: stream_socket_client
+
+File: D:\htdocs\meetgreeksingles_com\_include\current\smtp.class.php (Line: 162)
+Class: Smtp
+Function: connect
+
+File: D:\htdocs\meetgreeksingles_com\_include\lib\mail.php (Line: 125)
+Class: Smtp
+Function: send
+
+File: D:\htdocs\meetgreeksingles_com\_include\lib\mail.php (Line: 78)
+Function: send_mail_smtp
+
+File: D:\htdocs\meetgreeksingles_com\_include\current\common.class.php (Line: 422)
+Function: send_mail
+
+File: D:\htdocs\meetgreeksingles_com\_include\current\user.class.php (Line: 542)
+Class: Common
+Function: sendAutomail
+
+File: D:\htdocs\meetgreeksingles_com\_include\current\cjoinform.class.php (Line: 198)
+Class: User
+Function: add
+
+File: D:\htdocs\meetgreeksingles_com\m\join.php (Line: 48)
+Class: CJoinForm
+Function: init
+
+$_POST = Array
+(
+    [cmd] => register
+    [ajax] => 1
+    [email] => 000ouzo@gmail.com
+    [join_password] => louie37984
+    [join_handle] => Ouzo
+    [day] => 17
+    [month] => 8
+    [year] => 1969
+    [orientation] => 1
+    [country] => 14
+    [state] => 134
+    [city] => 2657
+    [captcha] => R38DS
+    [geo_position] => Array
+        (
+            [lat] => 0
+            [long] => 0
+        )
+
+)
+
+---------
+
+2022-11-22 08:11:07
+User_id: 99121
+Error: E_USER_NOTICE
+URL: https://meetgreeksingles.com/m/join.php?&set_template_mobile_runtime=impact_mobile&site_part_runtime=mobile&site_guid=0
+File: D:\htdocs\meetgreeksingles_com\_include\lib\mail.php
+Line: 126
+Message: send_mail(): Can't send mail via SMTP
+
+Call stack:
+
+File: D:\htdocs\meetgreeksingles_com\_include\lib\mail.php (Line: 126)
+Function: trigger_error
+
+File: D:\htdocs\meetgreeksingles_com\_include\lib\mail.php (Line: 78)
+Function: send_mail_smtp
+
+File: D:\htdocs\meetgreeksingles_com\_include\current\common.class.php (Line: 422)
+Function: send_mail
+
+File: D:\htdocs\meetgreeksingles_com\_include\current\user.class.php (Line: 542)
+Class: Common
+Function: sendAutomail
+
+File: D:\htdocs\meetgreeksingles_com\_include\current\cjoinform.class.php (Line: 198)
+Class: User
+Function: add
+
+File: D:\htdocs\meetgreeksingles_com\m\join.php (Line: 48)
+Class: CJoinForm
+Function: init
+
+$_POST = Array
+(
+    [cmd] => register
+    [ajax] => 1
+    [email] => 000ouzo@gmail.com
+    [join_password] => louie37984
+    [join_handle] => Ouzo
+    [day] => 17
+    [month] => 8
+    [year] => 1969
+    [orientation] => 1
+    [country] => 14
+    [state] => 134
+    [city] => 2657
+    [captcha] => R38DS
+    [geo_position] => Array
+        (
+            [lat] => 0
+            [long] => 0
+        )
+
+)
+
+---------
+
+2022-11-22 08:11:28
+User_id: 99121
+Error: E_WARNING
+URL: https://meetgreeksingles.com/m/join.php?&set_template_mobile_runtime=impact_mobile&site_part_runtime=mobile&site_guid=0
+File: D:\htdocs\meetgreeksingles_com\_include\current\smtp.class.php
+Line: 144
+Message: stream_socket_client(): unable to connect to mail.chameleonintranet.com:25025 (A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+)
+
+Call stack:
+
+File: D:\htdocs\meetgreeksingles_com\_include\current\smtp.class.php (Line: 144)
+Function: stream_socket_client
+
+File: D:\htdocs\meetgreeksingles_com\_include\current\smtp.class.php (Line: 162)
+Class: Smtp
+Function: connect
+
+File: D:\htdocs\meetgreeksingles_com\_include\lib\mail.php (Line: 125)
+Class: Smtp
+Function: send
+
+File: D:\htdocs\meetgreeksingles_com\_include\lib\mail.php (Line: 78)
+Function: send_mail_smtp
+
+File: D:\htdocs\meetgreeksingles_com\_include\current\common.class.php (Line: 422)
+Function: send_mail
+
+File: D:\htdocs\meetgreeksingles_com\_include\current\user.class.php (Line: 550)
+Class: Common
+Function: sendAutomail
+
+File: D:\htdocs\meetgreeksingles_com\_include\current\cjoinform.class.php (Line: 198)
+Class: User
+Function: add
+
+File: D:\htdocs\meetgreeksingles_com\m\join.php (Line: 48)
+Class: CJoinForm
+Function: init
+
+$_POST = Array
+(
+    [cmd] => register
+    [ajax] => 1
+    [email] => 000ouzo@gmail.com
+    [join_password] => louie37984
+    [join_handle] => Ouzo
+    [day] => 17
+    [month] => 8
+    [year] => 1969
+    [orientation] => 1
+    [country] => 14
+    [state] => 134
+    [city] => 2657
+    [captcha] => R38DS
+    [geo_position] => Array
+        (
+            [lat] => 0
+            [long] => 0
+        )
+
+)
+
+---------
+
+2022-11-22 08:11:28
+User_id: 99121
+Error: E_USER_NOTICE
+URL: https://meetgreeksingles.com/m/join.php?&set_template_mobile_runtime=impact_mobile&site_part_runtime=mobile&site_guid=0
+File: D:\htdocs\meetgreeksingles_com\_include\lib\mail.php
+Line: 126
+Message: send_mail(): Can't send mail via SMTP
+
+Call stack:
+
+File: D:\htdocs\meetgreeksingles_com\_include\lib\mail.php (Line: 126)
+Function: trigger_error
+
+File: D:\htdocs\meetgreeksingles_com\_include\lib\mail.php (Line: 78)
+Function: send_mail_smtp
+
+File: D:\htdocs\meetgreeksingles_com\_include\current\common.class.php (Line: 422)
+Function: send_mail
+
+File: D:\htdocs\meetgreeksingles_com\_include\current\user.class.php (Line: 550)
+Class: Common
+Function: sendAutomail
+
+File: D:\htdocs\meetgreeksingles_com\_include\current\cjoinform.class.php (Line: 198)
+Class: User
+Function: add
+
+File: D:\htdocs\meetgreeksingles_com\m\join.php (Line: 48)
+Class: CJoinForm
+Function: init
+
+$_POST = Array
+(
+    [cmd] => register
+    [ajax] => 1
+    [email] => 000ouzo@gmail.com
+    [join_password] => louie37984
+    [join_handle] => Ouzo
+    [day] => 17
+    [month] => 8
+    [year] => 1969
+    [orientation] => 1
+    [country] => 14
+    [state] => 134
+    [city] => 2657
+    [captcha] => R38DS
+    [geo_position] => Array
+        (
+            [lat] => 0
+            [long] => 0
+        )
+
+)
+
+---------
+

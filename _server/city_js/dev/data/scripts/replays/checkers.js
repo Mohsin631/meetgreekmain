@@ -1,0 +1,1 @@
+var checkers_gameReplay,checkers_replays;

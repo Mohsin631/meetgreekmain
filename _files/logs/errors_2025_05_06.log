@@ -1,0 +1,66 @@
+2025-05-06 11:42:26
+User_id: 0
+Error: E_ERROR
+URL: https://meetgreeksingles.com/administration/pay.php?action=saved
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/administration/pay.php
+Line: 35
+Message: Uncaught Error: Object of class CHtml could not be converted to string in /home/slqihj5q4r69/public_html/meetgreeksingles.com/administration/pay.php:35
+Stack trace:
+#0 /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/lib/block.php(283): CAdminPay->parseBlock(Object(CHtml))
+#1 /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/core/main_close.php(19): CHtmlBlock->parse(NULL)
+#2 /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/core/administration_close.php(10): include('/home/slqihj5q4...')
+#3 /home/slqihj5q4r69/public_html/meetgreeksingles.com/administration/pay.php(81): include('/home/slqihj5q4...')
+#4 {main}
+  thrown
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-06 11:42:39
+User_id: 0
+Error: E_ERROR
+URL: https://meetgreeksingles.com/administration/pay.php
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/administration/pay.php
+Line: 35
+Message: Uncaught Error: Object of class CHtml could not be converted to string in /home/slqihj5q4r69/public_html/meetgreeksingles.com/administration/pay.php:35
+Stack trace:
+#0 /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/lib/block.php(283): CAdminPay->parseBlock(Object(CHtml))
+#1 /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/core/main_close.php(19): CHtmlBlock->parse(NULL)
+#2 /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/core/administration_close.php(10): include('/home/slqihj5q4...')
+#3 /home/slqihj5q4r69/public_html/meetgreeksingles.com/administration/pay.php(81): include('/home/slqihj5q4...')
+#4 {main}
+  thrown
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-05-06 11:42:49
+User_id: 0
+Error: E_ERROR
+URL: https://meetgreeksingles.com/administration/pay.php
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/administration/pay.php
+Line: 35
+Message: Uncaught Error: Object of class CHtml could not be converted to string in /home/slqihj5q4r69/public_html/meetgreeksingles.com/administration/pay.php:35
+Stack trace:
+#0 /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/lib/block.php(283): CAdminPay->parseBlock(Object(CHtml))
+#1 /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/core/main_close.php(19): CHtmlBlock->parse(NULL)
+#2 /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/core/administration_close.php(10): include('/home/slqihj5q4...')
+#3 /home/slqihj5q4r69/public_html/meetgreeksingles.com/administration/pay.php(81): include('/home/slqihj5q4...')
+#4 {main}
+  thrown
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+

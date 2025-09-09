@@ -1,0 +1,35 @@
+2022-10-26 11:34:59
+User_id: 0
+Error: E_WARNING
+URL: https://meetgreeksingles.com/
+File: D:\htdocs\meetgreeksingles_com\index.php
+Line: 134
+Message: strip_tags() expects parameter 1 to be string, array given
+
+Call stack:
+
+File: D:\htdocs\meetgreeksingles_com\index.php (Line: 134)
+Function: strip_tags
+
+File: D:\htdocs\meetgreeksingles_com\_include\lib\block.php (Line: 283)
+Class: CIndex
+Function: parseBlock
+
+File: D:\htdocs\meetgreeksingles_com\_include\core\main_close.php (Line: 19)
+Class: CHtmlBlock
+Function: parse
+
+File: D:\htdocs\meetgreeksingles_com\index.php (Line: 679)
+Function: include
+
+$_POST = Array
+(
+    [user] => Array
+        (
+            [0] => admin@localhost
+        )
+
+)
+
+---------
+

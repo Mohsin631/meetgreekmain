@@ -1,0 +1,16 @@
+<lang>
+	<word name="Start">Start!</word>
+	<word name="Your_name">Your name:</word>
+	<word name="Partners_name">Partners name:</word>
+	<word name="Game_Over">Game Over</word>
+	<word name="Play_again">Play again!</word>
+	<word name="Your_move">Your move</word>
+	<word name="move">move</word>
+	<word name="Waiting_for_the_partner">Waiting for the partner...</word>
+	<word name="Your_partner_is_out_of_game">Your partner is out of game...</word>
+	<word name="Throwing">Throwing</word>
+	<word name="Walking">Walking</word>
+	<word name="Aiming">Aiming</word>
+	<word name="You_Win">You Win!!!</word>
+	
+</lang>

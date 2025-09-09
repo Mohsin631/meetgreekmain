@@ -1,0 +1,322 @@
+2025-09-05 18:59:07
+User_id: 24
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=7&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTI0
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) or const (T_CONST)
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-09-05 19:10:38
+User_id: 24
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=7&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTI0
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) or const (T_CONST)
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-09-05 19:14:05
+User_id: 24
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=7&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTI0
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) or const (T_CONST)
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-09-05 19:14:29
+User_id: 24
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=7&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTI0
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) or const (T_CONST)
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-09-05 19:18:59
+User_id: 24
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=7&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTI0
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) or const (T_CONST)
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-09-05 19:20:19
+User_id: 24
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=7&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTI0
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) or const (T_CONST)
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-09-05 20:23:54
+User_id: 24
+Error: E_WARNING
+URL: https://meetgreeksingles.com/_pay/multisafepay/before.php?item=7&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTI0
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paymultisafepay.class.php
+Line: 3
+Message: require_once(/home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/IPC/Loader.php): failed to open stream: No such file or directory
+
+Call stack:
+
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paymultisafepay.class.php (Line: 3)
+Function: require_once
+
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/core/autoloader.php (Line: 1)
+Function: include_once
+
+File:  (Line: )
+Function: autoloader
+
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_pay/multisafepay/before.php (Line: 14)
+Function: spl_autoload_call
+
+---------
+
+2025-09-05 20:25:25
+User_id: 24
+Error: E_WARNING
+URL: https://meetgreeksingles.com/_pay/multisafepay/before.php?item=7&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTI0
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/core/autoloader.php
+Line: 1
+Message: include_once(/home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/core/../current/mypos\ipc\config.class.php): failed to open stream: No such file or directory
+
+Call stack:
+
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/core/autoloader.php (Line: 1)
+Function: include_once
+
+File:  (Line: )
+Function: autoloader
+
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paymultisafepay.class.php (Line: 128)
+Function: spl_autoload_call
+
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paymultisafepay.class.php (Line: 22)
+Class: PayMultisafepay
+Function: initPaymentSystem
+
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_pay/multisafepay/before.php (Line: 14)
+Class: PayMultisafepay
+Function: before
+
+---------
+
+2025-09-05 20:31:27
+User_id: 24
+Error: E_PARSE
+URL: https://meetgreeksingles.com/_pay/stripe/before.php?item=7&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTI0
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paystripe.class.php
+Line: 1
+Message: syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) or const (T_CONST)
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-09-05 20:31:38
+User_id: 24
+Error: E_WARNING
+URL: https://meetgreeksingles.com/_pay/multisafepay/before.php?item=7&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTI0
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paymultisafepay.class.php
+Line: 3
+Message: require_once(/home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/IPC/Loader.php): failed to open stream: No such file or directory
+
+Call stack:
+
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paymultisafepay.class.php (Line: 3)
+Function: require_once
+
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/core/autoloader.php (Line: 1)
+Function: include_once
+
+File:  (Line: )
+Function: autoloader
+
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_pay/multisafepay/before.php (Line: 14)
+Function: spl_autoload_call
+
+---------
+
+2025-09-05 20:32:30
+User_id: 24
+Error: E_WARNING
+URL: https://meetgreeksingles.com/_pay/multisafepay/before.php?item=7&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTI0
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/core/autoloader.php
+Line: 1
+Message: include_once(/home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/core/../current/mypos\ipc\config.class.php): failed to open stream: No such file or directory
+
+Call stack:
+
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/core/autoloader.php (Line: 1)
+Function: include_once
+
+File:  (Line: )
+Function: autoloader
+
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paymultisafepay.class.php (Line: 128)
+Function: spl_autoload_call
+
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paymultisafepay.class.php (Line: 22)
+Class: PayMultisafepay
+Function: initPaymentSystem
+
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_pay/multisafepay/before.php (Line: 14)
+Class: PayMultisafepay
+Function: before
+
+---------
+
+2025-09-05 20:46:06
+User_id: 24
+Error: E_WARNING
+URL: https://meetgreeksingles.com/_pay/multisafepay/before.php?item=7&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTI0
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/core/autoloader.php
+Line: 1
+Message: include_once(/home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/core/../current/mypos\ipc\config.class.php): failed to open stream: No such file or directory
+
+Call stack:
+
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/core/autoloader.php (Line: 1)
+Function: include_once
+
+File:  (Line: )
+Function: autoloader
+
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paymultisafepay.class.php (Line: 128)
+Function: spl_autoload_call
+
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paymultisafepay.class.php (Line: 22)
+Class: PayMultisafepay
+Function: initPaymentSystem
+
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_pay/multisafepay/before.php (Line: 14)
+Class: PayMultisafepay
+Function: before
+
+---------
+
+2025-09-05 20:46:28
+User_id: 24
+Error: E_ERROR
+URL: https://meetgreeksingles.com/_pay/multisafepay/before.php?item=7&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTI0
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paymultisafepay.class.php
+Line: 128
+Message: Uncaught Error: Call to undefined method Config::setIpcURL() in /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paymultisafepay.class.php:128
+Stack trace:
+#0 /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paymultisafepay.class.php(21): PayMultisafepay::initPaymentSystem()
+#1 /home/slqihj5q4r69/public_html/meetgreeksingles.com/_pay/multisafepay/before.php(14): PayMultisafepay::before()
+#2 {main}
+  thrown
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2025-09-05 20:47:04
+User_id: 24
+Error: E_WARNING
+URL: https://meetgreeksingles.com/_pay/multisafepay/before.php?item=7&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTI0
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/core/autoloader.php
+Line: 1
+Message: include_once(/home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/core/../current/mypos\ipc\config.class.php): failed to open stream: No such file or directory
+
+Call stack:
+
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/core/autoloader.php (Line: 1)
+Function: include_once
+
+File:  (Line: )
+Function: autoloader
+
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paymultisafepay.class.php (Line: 128)
+Function: spl_autoload_call
+
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paymultisafepay.class.php (Line: 22)
+Class: PayMultisafepay
+Function: initPaymentSystem
+
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_pay/multisafepay/before.php (Line: 14)
+Class: PayMultisafepay
+Function: before
+
+---------
+
+2025-09-05 20:50:30
+User_id: 24
+Error: E_WARNING
+URL: https://meetgreeksingles.com/_pay/multisafepay/before.php?item=7&request_uri=aHR0cHM6Ly9tZWV0Z3JlZWtzaW5nbGVzLmNvbS91cGdyYWRlLnBocD9jbWQ9c2F2ZSZhamF4PTEmc2V0X3RlbXBsYXRlX3J1bnRpbWU9aW1wYWN0JnNpdGVfcGFydF9ydW50aW1lPW1haW4mc2l0ZV9ndWlkPTI0
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/core/autoloader.php
+Line: 1
+Message: include_once(/home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/core/../current/mypos\ipc\base.class.php): failed to open stream: No such file or directory
+
+Call stack:
+
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/core/autoloader.php (Line: 1)
+Function: include_once
+
+File:  (Line: )
+Function: autoloader
+
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/mypos/IPC/Purchase.php (Line: 9)
+Function: spl_autoload_call
+
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paymultisafepay.class.php (Line: 4)
+Function: require_once
+
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/core/autoloader.php (Line: 1)
+Function: include_once
+
+File:  (Line: )
+Function: autoloader
+
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_pay/multisafepay/before.php (Line: 14)
+Function: spl_autoload_call
+
+---------
+

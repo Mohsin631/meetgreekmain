@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{title}</title>
+    <meta http-equiv="Content-Type" content="text/html; charset={l_charset}" />
+    <meta name="description" content="{description}">
+    <meta name="keywords" content="{keywords}">
+
+    {header_favicon}
+
+    <!-- begin_color_scheme_styles_city_page -->
+    <style type="text/css">
+        html, body, .bl_3dchat, .bl_3dchat .bs_main, .bl_3dchat #myIFrame,
+        .bl_3dchat #loading_screen {background-color: {color_scheme_3dcity_background_color}!important;}
+    </style>
+    <!-- end_color_scheme_styles_city_page -->
+    <!-- begin_color_scheme_template -->
+    <style type="text/css">
+        html, body, .bl_3dchat, .bl_3dchat .bs_main, .bl_3dchat #myIFrame,
+        .bl_3dchat #loading_screen {background-color: {3dcity_background_color}!important;}
+    </style>
+    <!-- end_color_scheme_template -->
+
+
+    <script type="text/javascript" src="{url_city}tmpl/common/js/jquery-1.11.2.min.js{cache_version_param}"></script>
+    <script type="text/javascript" src="{url_city}tmpl/common/js/jquery-ui-1.11.4.min.js{cache_version_param}"></script>
+    <script type="text/javascript" src="{url_main}_server/js/device.min.js{cache_version_param}"></script>
+    <script type="text/javascript" src="{url_main}_server/lib.js{cache_version_param}"></script>
+    <script type="text/javascript" src="{url_main}_server/jquery/modernizr.js{cache_version_param}"></script>
+
+    {include}
+    {include_custom}
+
+    <script type="text/javascript" src="{url_main}/_server/js/sound/soundmanager2-nodebug-jsmin.js{cache_version_param}"></script>
+    <script type="text/javascript" src="{url_main}_server/jquery/jquery.winFocus.js{cache_version_param}"></script>
+
+    <script>
+        var siteTitle='{site_title}';
+        var isFbModeTitle='false';
+    </script>
+</head>
+<body>
+<script>
+    var ajax_login_status={xajax_login_status};
+    city.setState(0);
+</script>

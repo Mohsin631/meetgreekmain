@@ -1,0 +1,211 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>3D</title>
+    <script type="text/javascript">
+        var pathPano = '{path_pano}',
+            keyMap = '{google_maps_api_key}';
+
+        document.write("<link href='css/style.css{cache_version_param}' rel='stylesheet' type='text/css'>");
+        document.write("<link href='css/pointer.css{cache_version_param}' rel='stylesheet' type='text/css'>");
+
+        var fileJs = ['data/ghosts.js', 'data/env.js', 'data/assets.js', 'data/locations.js', 'data/chars.js', 'data/caps.js',
+            'js/babylonjs/babylon.min.js', 'js/babylonjs/Stats.js', 'js/babylonjs/pointShadow.js', 'js/babylonjs/water-material.js', 'js/babylonjs/SpriteMaterial.js', 'js/babylonjs/googlemap.js',
+            'js/babylonjs/SkeletonController.js', 'js/babylonjs/animation.js', 'js/babylonjs/TextureAnimator.js', 'js/babylonjs/OBJLoader.js', 'js/GSVPano.js', 'js/babylonjs/gif.js', 'js/babylonjs/MTLLoader.js', 'js/babylonjs/blurredMirror.js', 'js/babylonjs/Glass.js',
+            'js/jquery/jquery-2.1.4.min.js', 'js/jquery/jquery.timers-1.2.js', 'js/babylonjs/PVRLoader.js', 'js/babylonjs/mixmap.js', 'js/babylonjs/particle3D.js', 'js/babylonjs/rain.js', 'js/babylonjs/Mirror.js', 'js/babylonjs/tail.js',
+            'js/ww/loader.js', 'js/device.min.js', 'js/init.js', 'js/math.js', 'js/messages.js', 'js/houses.js',
+            'js/location.js', 'js/move.js', 'js/world.js', 'js/history.js', 'js/view.js', 'js/lift.js', 'js/viewzones.js',
+            'js/pc_controls.js', 'js/touch_controls.js', 'js/orientation_controls.js', 'js/exitzone.js', 'js/character.js', 'js/video.js', 'js/custom_obj.js', 'js/picture.js',
+            'https://maps.google.com/maps/api/js{param_google_maps_api_key}', 'js/jquery/jquery.base64.min.js', 'js/zpipe.min.js', 'js/GSVPanoDepth.js', 'js/translate.js', 'js/rtc.js'
+        ];
+        fileJs.forEach(function(file, i, arr) {
+            if (file.indexOf('?') === -1) {
+                document.write("<script src='" + file + "{cache_version_param}' type='text/javascript'><\/script>");
+            } else {
+                document.write("<script src='" + file + "' type='text/javascript'><\/script>");
+            }
+        });
+    </script>
+</head>
+
+<body>
+    <input type="file" id="fileElem" accept="image/*" style="display:none">
+    <div id="world">
+        <div id="cam_wrapper">
+            <video autoplay="true" id="camvideo" width="1920"></video>
+        </div>
+        <!-- person_cursor_info -->
+        <div id="talk_icon" class="person_cursor_info">
+            <div class="pic">
+                <button title="" class="frame"></button>
+            </div>
+            <span class="info"></span>
+        </div>
+        <!-- /person_cursor_info -->
+
+    </div>
+    <div id="yt" class="dev">
+        <!-- input id="yt_url" value="http://www.youtube.com/watch?v=t_lYzVPBuWw" -->
+        <input id="yt_url" value="https://www.youtube.com/watch?v=HEwtPwkeXjw">
+        <input id="yt_play" value="play" type="submit" />
+    </div>
+    <div id="debug" class="dev"></div>
+    <div id="set_loc" class="dev">
+
+        <select>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                         <option value="24">24</option>
+                         <option value="25">25</option>
+                         <option value="26">26</option>
+                         <option value="27">27</option>
+                         <option value="28">28</option>
+                         <option value="29">29</option>
+                         <option value="30">30</option>
+                         <option value="31">31</option>
+                         <option value="32">32</option>
+                         <option value="33">33</option>
+                         <option value="34">34</option>
+                         <option value="35">35</option>
+                         <option value="36">36</option>
+                         <option value="37">37</option>
+                         <option value="38">38</option>
+                         <option value="39">39</option>
+                         <option value="40">40</option>
+                         <option value="41">41</option>
+                         <option value="42">42</option>
+                         <option value="43">43</option>
+                         <option value="44">44</option>
+                         <option value="45">45</option>
+                         <option value="46">46</option>
+                         <option value="47">47</option>
+                         <option value="48">48</option>
+                         <option value="49">49</option>
+                         <option value="50">50</option>
+                         <option value="51">51</option>
+                         <option value="52">52</option>
+                         <option value="53">53</option>
+                         <option value="54">54</option>
+                         <option value="55">55</option>
+                         <option value="56">56</option>
+                         <option value="57">57</option>
+                         <option value="58">58</option>
+                         <option value="59">59</option>
+                         <option value="60">60</option>
+                         <option value="61">61</option>
+                         <option value="62">62</option>
+                         <option value="63">63</option>
+                         <option value="64">64</option>
+                         <option value="65">65</option>
+                         <option value="66">66</option>
+                         <option value="67">67</option>
+                         <option value="68">68</option>
+                         <option value="69">69</option>
+                         <option value="70">70</option>
+                         <option value="71">71</option>
+                         <option value="72">72</option>
+                         <option value="73">73</option>
+                        
+                         
+                    </select>
+        <span>[set loc]</span>
+    </div>
+    <div id="char_controls" class="dev">
+        <select id="face_anim">
+                        <option value="Base">Base</option>
+                        <option value="Blink">Blink</option>
+                        <option value="Pity">Pity</option>
+                        <option value="Sad">Sad</option>
+                        <option value="Smile">Smile</option>
+                        <option value="Suspicion">Suspicion</option>
+                    </select>
+        <div id="play_face_anim">[play]</div><br/>
+        <select id="char_type">
+                        <option value="male" >male</option>
+                        <option value="male2">male2</option>
+                        <option value="female" >female</option>
+                        <option value="female2">female2</option>
+                        <option value="female03">female03</option>
+                        <option value="female05" selected="selected">female05</option>
+                        <option value="female06">female06</option>
+                        <option value="male05">male05</option>
+                        <option value="male06">male06</option>
+                        <option value="male07">male07</option>
+                        <option value="male07_red">male07_red</option>
+                        <option value="male07_blue">male07_blue</option>
+                        <option value="male07_purple">male07_purple</option>
+                        <option value="female03_purple">female03_purple</option>
+                        <option value="female03_blue">female03_blue</option>
+                        <option value="female05_brown">female05_brown</option>
+                        <option value="female05_purple">female05_purple</option>
+                        <option value="female05_green">female05_green</option>
+                        <option value="male1_purple">male1_purple</option>
+                        <option value="male1_grey">male1_grey</option>
+                        <option value="male2_grey">male2_grey</option>
+                        <option value="male06_purple">male06_purple</option>
+                        <option value="male06_blue">male06_blue</option>
+
+                    </select>
+        <select id="char_face">
+                        <option value="1.jpg">face1</option>
+                        <option value="2.jpg">face2</option>
+                        <option value="3.jpg">face3</option>
+                        <option value="4.jpg">face4</option>
+                        <option value="5.jpg"  >face5</option>
+                        <option value="6.jpg"  selected="selected" >face6</option>
+                    </select>
+        <select id="char_cap">
+
+                        <option value="test" >test </option>
+                    </select>
+        <input type="text" id="char_head" value="F1CCBC" />
+        <br/>
+        <div id="set_char">[set]</div>
+    </div>
+    <div id="coll_debug" class="dev">[colliders debugmode]</div>
+    <div id="cam_controls" class="dev">
+        <div id="male_cam">[male cam]</div><br/><br/>
+        <div id="female_cam">[female cam]</div>
+    </div>
+    <div id="sync" class="dev">sync off</div>
+    <div class="dev_pointer"></div>
+    <div class="dev_fps">
+        <select id="max_fps">
+                        <option value="30">30</option>
+                        <option value="60">60</option>
+                    </select>
+        <input type="submit" id="set_max_fps" value="set">
+    </div>
+    <div class='dev' id="reset_custom_data">
+        [reset_custom_data]
+    </div>
+    <div class='dev' id='project_webcam'>[project_webcam]</div>
+
+    <div id="touch_devmode"></div>
+
+</body>
+
+</html>

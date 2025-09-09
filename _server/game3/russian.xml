@@ -1,0 +1,10 @@
+<lang>
+	<word name="Your_move">Ваш ход!</word>
+	<word name="Wait">Ожидайте...</word>
+	<word name="Draughts">Шашки</word>
+	<word name="Waiting_for_the_partner">Ожидание партнера...</word>
+	<word name="Start">Старт!</word>
+	<word name="You_win">Вы выиграли!</word>
+	<word name="You_lose">Вы проиграли!</word>
+	<word name="Again">Еще раз?</word>
+</lang>

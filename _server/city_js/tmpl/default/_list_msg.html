@@ -1,0 +1,41 @@
+<!-- begin_message_list -->
+<div style="<!-- begin_message_list_not_active -->display:none;<!-- end_message_list_not_active -->" id="message_list_{message_list_user_to}" class="message_list">
+    <div class="message_list_cont">
+    <!-- begin_message -->
+        <div id="message_{message_id}" data-send="{message_send}" data-from-user-id="{message_from_user_id}" data-to-user-id="{message_to_user_id}" data-id="{message_id}" class="item message_list_item {message_from_no_first}">
+            <!-- begin_message_user_photo -->
+		    <div class="pic">
+				<a onclick="city.goToProfileUser('{message_profile_link}'); return false;" href="">
+                    <img class="user_photo_msg_{message_from_user_id}" src="{message_user_photo}" alt="" title="{message_user_name}{message_user_age}"/>
+                </a>
+		    </div>
+            <!-- end_message_user_photo -->
+		    <div class="message">
+                <!-- begin_message_from -->
+                <div class="top">
+	                <div class="msg">
+			            <span class="msg_text {message_from_new}">{message_text}</span>
+			           	<div class="msg_arrow_left"></div>
+			        </div>
+                </div>
+                <!-- end_message_from -->
+                <!-- begin_message_to -->
+		        <div class="msg_check">
+		            <span class="msg_text">{message_text}</span>
+                    <div id="message_check_{message_id}" data-id="{message_id}" class="icon_check_msg <!-- begin_message_read -->hide<!-- end_message_read -->"></div>
+		        </div>
+                <!-- end_message_to -->
+            </div>
+        </div>
+    <!-- end_message -->
+    </div>
+</div>
+<!-- end_message_list -->
+
+<!-- begin_message_list_update -->
+<script>
+<!-- begin_show_read_msg -->
+city.showNoteOnReadingMessage('{show_read_msg_id}', '{show_read_msg_send}');
+<!-- end_show_read_msg -->
+</script>
+<!-- end_message_list_update -->

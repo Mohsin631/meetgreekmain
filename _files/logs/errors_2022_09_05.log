@@ -1,0 +1,47 @@
+2022-09-05 22:20:18
+User_id: 99107
+Error: E_WARNING
+URL: https://meetgreeksingles.com/m/search_results.php?&set_template_mobile_runtime=impact_mobile&site_part_runtime=mobile&site_guid=99107
+File: D:\htdocs\meetgreeksingles_com\_include\lib\list.php
+Line: 113
+Message: Division by zero
+
+Call stack:
+
+File: D:\htdocs\meetgreeksingles_com\_include\current\users.php (Line: 1104)
+Class: CHtmlList
+Function: parseBlock
+
+File: D:\htdocs\meetgreeksingles_com\m\search_results.php (Line: 189)
+Class: CUsers
+Function: parseBlock
+
+File: D:\htdocs\meetgreeksingles_com\_include\lib\block.php (Line: 294)
+Class: CSearchResults
+Function: parseBlock
+
+File: D:\htdocs\meetgreeksingles_com\_include\lib\block.php (Line: 277)
+Class: CHtmlBlock
+Function: parse
+
+File: D:\htdocs\meetgreeksingles_com\_include\core\main_close.php (Line: 19)
+Class: CHtmlBlock
+Function: parse
+
+File: D:\htdocs\meetgreeksingles_com\m\_include\core\main_close.php (Line: 10)
+Function: include
+
+File: D:\htdocs\meetgreeksingles_com\m\search_results.php (Line: 823)
+Function: include
+
+$_POST = Array
+(
+    [ajax] => 1
+    [set_filter] => 0
+    [offset] => 10
+    [on_page] => NaN
+    [display] => 
+)
+
+---------
+

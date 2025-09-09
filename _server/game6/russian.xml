@@ -1,0 +1,12 @@
+<lang>
+	<word name="Start_Game">Начало игры</word>
+	<word name="Waiting">Ожидайте...</word>
+	<word name="Play_again">Играть снова?</word>
+	<word name="Scorched_Earth">Выжженная Земля</word>
+	<word name="You_won">Вы выиграли!</word>
+	<word name="You_lost">Вы проиграли.</word>
+	<word name="Your_move">Ваш ход!</word>
+	<word name="Waiting_for">В ожидании</word>
+	<word name="Click_here_to_begin_you_move">Нажмите здесь, чтобы начать движение</word>
+	<word name="vs">против</word>
+</lang>

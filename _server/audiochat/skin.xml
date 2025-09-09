@@ -1,0 +1,10 @@
+<images>
+	<sliderBg>_server/audiochat/images/slide_bg.png</sliderBg>
+	<slider>_server/audiochat/images/slider.png</slider>
+	<connect>_server/audiochat/images/btnConnect_voip.png</connect>
+	<disconnect>_server/audiochat/images/btnDisconnect_voip.png</disconnect>
+	<soundOn>_server/audiochat/images/btnSound.png</soundOn>
+	<soundOff>_server/audiochat/images/btnSoundOff.png</soundOff>
+	<dot>_server/audiochat/images/voipDot.png</dot>
+	<iconStop>_server/audiochat/images/iconStop.png</iconStop>
+</images>

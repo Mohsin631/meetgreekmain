@@ -1,0 +1,31 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 17.10.2017 17:29:35
+
+mtllib bezier_cabinet_TEST_mirror_plane.mtl
+
+#
+# object bezier_cabinet_TEST_mirror_plane
+#
+
+v  20.8498 192.9212 -3.5456
+v  20.8500 10.5212 -3.5456
+v  20.8500 10.5212 -54.2961
+v  20.8498 192.9212 -54.2961
+# 4 vertices
+
+vn 1.0000 0.0000 0.0000
+# 1 vertex normals
+
+vt 0.3824 0.3650 0.0000
+vt 0.0200 0.3650 0.0000
+vt 0.0200 0.2570 0.0000
+vt 0.3824 0.2570 0.0000
+# 4 texture coords
+
+g bezier_cabinet_TEST_mirror_plane
+usemtl wire_224086086
+s 2
+f 1/1/1 2/2/1 3/3/1 
+f 3/3/1 4/4/1 1/1/1 
+# 2 faces
+

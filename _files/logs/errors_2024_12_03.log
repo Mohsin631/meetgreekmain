@@ -1,0 +1,40 @@
+2024-12-03 15:33:56
+User_id: 0
+Error: E_ERROR
+URL: https://www.meetgreeksingles.com/
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/core/main_auth.php
+Line: 273
+Message: Uncaught Error: Class 'City' not found in /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/core/main_auth.php:273
+Stack trace:
+#0 /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/core/main_start.php(17): include()
+#1 /home/slqihj5q4r69/public_html/meetgreeksingles.com/index.php(16): include('/home/slqihj5q4...')
+#2 {main}
+  thrown
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+
+2024-12-03 15:34:00
+User_id: 0
+Error: E_ERROR
+URL: https://www.meetgreeksingles.com/
+File: /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/core/main_auth.php
+Line: 273
+Message: Uncaught Error: Class 'City' not found in /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/core/main_auth.php:273
+Stack trace:
+#0 /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/core/main_start.php(17): include()
+#1 /home/slqihj5q4r69/public_html/meetgreeksingles.com/index.php(16): include('/home/slqihj5q4...')
+#2 {main}
+  thrown
+
+Call stack:
+
+File:  (Line: )
+Function: fatalScriptError
+
+---------
+

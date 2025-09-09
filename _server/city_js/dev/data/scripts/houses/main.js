@@ -1,0 +1,1 @@
+var houseLocations,i,hId;

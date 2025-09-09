@@ -1,0 +1,44 @@
+<link rel="stylesheet" href="{url_tmpl_city}css/style_chat.css{cache_version_param}" />
+<link rel="stylesheet" href="{url_city}tmpl/common/css/jquery.jscrollpane.css{cache_version_param}" />
+
+<script language="javascript" type="text/javascript">
+    var urlMain='{url_main}';
+    var urlCity='{url_city}';
+    var urlTmplCity='{url_tmpl_city}';
+    var urlTmplImagesCity=urlTmplCity+'images/';
+</script>
+<script type="text/javascript" src="{url_city}tmpl/common/js/messages.js{cache_version_param}"></script>
+<script type="text/javascript" src="{url_city}tmpl/common/js/jquery.jscrollpane.js{cache_version_param}"></script>
+<script type="text/javascript" src="{url_city}tmpl/common/js/jquery.mousewheel.js{cache_version_param}"></script>
+<script type="text/javascript" src="{url_city}tmpl/common/js/lib.js{cache_version_param}"></script>
+<script type="text/javascript" src="{url_city}tmpl/common/js/cash.js{cache_version_param}"></script>
+
+<script type="text/javascript" src="{url_tmpl_city}js/tools.js{cache_version_param}"></script>
+<script type="text/javascript" src="{url_tmpl_city}js/city.js{cache_version_param}"></script>
+<script type="text/javascript" src="{url_tmpl_city}js/character.js{cache_version_param}"></script>
+<script type="text/javascript" src="{url_tmpl_city}js/faceeditor.js{cache_version_param}"></script>
+<script type="text/javascript" src="{url_tmpl_city}js/server.js{cache_version_param}"></script>
+<script type="text/javascript" src="{url_tmpl_city}js/messages.js{cache_version_param}"></script>
+<script type="text/javascript" src="{url_tmpl_city}js/script.js{cache_version_param}"></script>
+
+<script type="text/javascript" src="{url_tmpl_city}js/createjs/easeljs-0.7.1.min.js{cache_version_param}"></script>
+<script type="text/javascript" src="{url_tmpl_city}js/createjs/tweenjs-0.5.1.min.js{cache_version_param}"></script>
+<script type="text/javascript" src="{url_tmpl_city}js/createjs/movieclip-0.7.1.min.js{cache_version_param}"></script>
+<script type="text/javascript" src="{url_tmpl_city}js/createjs/preloadjs-0.4.1.min.js{cache_version_param}"></script>
+<script type="text/javascript" src="{url_tmpl_city}js/facescan.js{cache_version_param}"></script>
+
+<script type="text/javascript" src="{url_main}_server/jquery/zero_clipboard/jquery.zeroclipboard.min.js{cache_version_param}"></script>
+<script type="text/javascript" src="{url_main}_server/jquery/prettyCheckable.js{cache_version_param}"></script>
+
+<script type="text/javascript" src="https://maps.google.com/maps/api/js{google_maps_api_key_for_city}"></script>
+<!-- https://console.developers.google.com/flows/enableapi?apiid=maps_backend,geocoding_backend,directions_backend,distance_matrix_backend,elevation_backend,places_backend&keyType=CLIENT_SIDE&reusekey=true -->
+
+<script language="javascript" type="text/javascript">
+    var city = new CCity('{url_main}', '{url_city}', '{url_tmpl}', '{url_files}', '{url_files_city}', '{cache_version_param}');
+    var cityTools = new CToolsCity();
+    var postMessages = new CPostMessages();
+    var chars = new CСharacter('{url_main}','{url_files}');
+    var editorFace = new CEditorFace('{url_city}','{url_files}');
+    preloadImagesCity();
+    var isPageCity = true;
+</script>

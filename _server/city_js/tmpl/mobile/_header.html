@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{title}</title>
+    <meta http-equiv="Content-Type" content="text/html; charset={l_charset}" />
+    <meta name="description" content="{description}">
+    <meta name="keywords" content="{keywords}">
+    <!-- begin_city_meta_viewport1 -->
+    <meta name="viewport" content="user-scalable=no, target-densitydpi=device-dpi">
+    <!-- end_city_meta_viewport1 -->
+    <!-- begin_city_meta_viewport_app1 -->
+    <script>
+        var viewPortScale=1/window.devicePixelRatio;
+        document.write('<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale='+viewPortScale+'">');
+    </script>
+    <!-- end_city_meta_viewport_app1 -->
+    <script>
+        var dpr=window.devicePixelRatio;
+        if(dpr){
+            dpr=1/dpr;
+            document.write('<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale='+dpr+', target-densitydpi=device-dpi">');
+        }else{
+            document.write('<meta name="viewport" content="user-scalable=no, target-densitydpi=device-dpi">');
+        }
+    </script>
+    <meta http-equiv="Cache-Control" content="no-cache"/>
+
+    {header_favicon}
+
+    <script type="text/javascript" src="{url_city}tmpl/common/js/jquery-1.11.2.min.js{cache_version_param}"></script>
+    <script type="text/javascript" src="{url_city}tmpl/common/js/jquery-ui-1.11.4.min.js{cache_version_param}"></script>
+
+    <!-- begin_color_scheme_styles_city_page -->
+    <meta name="theme-color" content="{color_scheme_mobile_header_color}">
+    <style type="text/css">
+        html, body, .mobile_keyboard, .bs_main,
+        .mobile_keyboard .mobile_keyboard_iframe .frame,
+        #loading_screen {background-color: {color_scheme_3dcity_background_color}!important;}
+        .app_preloader { background: {color_scheme_3dcity_background_color}!important; }
+    </style>
+    <!-- end_color_scheme_styles_city_page -->
+
+    <!-- begin_color_scheme_template -->
+    <style type="text/css">
+        html, body, .mobile_keyboard, .bs_main,
+        .mobile_keyboard .mobile_keyboard_iframe .frame,
+        #loading_screen {background-color: {3dcity_background_color}!important;}
+        .app_preloader {background: {3dcity_background_color}!important; }
+    </style>
+    <!-- end_color_scheme_template -->
+
+    <script type="text/javascript" src="{url_main}_server/js/device.min.js{cache_version_param}"></script>
+    <script type="text/javascript" src="{url_main}_server/lib.js{cache_version_param}"></script>
+    <script type="text/javascript" src="{url_main}_server/jquery/modernizr.js{cache_version_param}"></script>
+	<script type="text/javascript" src="{url_main}_server/jquery/jquery.cookie.js{cache_version_param}"></script>
+
+    {include}
+</head>
+<body>

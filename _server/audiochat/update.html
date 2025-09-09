@@ -1,0 +1,17 @@
+<div id="xajax_audio_update" class="audio-chat">
+	<div class="bg"><!--  --></div>
+	<div class="in">
+		<h2><img src="{url_main}_server/audiochat/img/audio-chat.gif" width="88" height="44" alt="audio chat" />{l_invitation}</h2>
+		<table>
+			<tr>
+				<td>
+					 {l_the_user} <strong><a target="_blank" href="{url_main}search_results.php?name={name}&display=profile">{name}</a></strong> {l_wants_videochat}
+				</td>
+			</tr>
+		</table>
+		<div class="buttons">
+			<a href="#" onclick="xajax_audio_reject({user_id});"><img src="{url_main}_server/audiochat/img/audio-chat-button-reject.png" width="111" height="31" alt="{l_reject}" /></a>
+           		 <a href="#" onclick="xajax_audio_go({user_id}, '{game_url}');"><img src="{url_main}_server/audiochat/img/audio-chat-button-chat.png" width="111" height="31" alt="{l_chat_now}" /></a>
+		</div>
+	</div>
+</div>

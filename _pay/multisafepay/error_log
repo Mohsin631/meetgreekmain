@@ -1,0 +1,12 @@
+[05-Sep-2025 20:46:28 Europe/Athens] PHP Fatal error:  Uncaught Error: Call to undefined method Config::setIpcURL() in /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paymultisafepay.class.php:128
+Stack trace:
+#0 /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paymultisafepay.class.php(21): PayMultisafepay::initPaymentSystem()
+#1 /home/slqihj5q4r69/public_html/meetgreeksingles.com/_pay/multisafepay/before.php(14): PayMultisafepay::before()
+#2 {main}
+  thrown in /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paymultisafepay.class.php on line 128
+[06-Sep-2025 10:38:38 Europe/Athens] PHP Fatal error:  Uncaught Error: Call to undefined method Config::setIpcURL() in /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paymultisafepay.class.php:124
+Stack trace:
+#0 /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paymultisafepay.class.php(17): PayMultisafepay::initPaymentSystem()
+#1 /home/slqihj5q4r69/public_html/meetgreeksingles.com/_pay/multisafepay/before.php(14): PayMultisafepay::before()
+#2 {main}
+  thrown in /home/slqihj5q4r69/public_html/meetgreeksingles.com/_include/current/paymultisafepay.class.php on line 124

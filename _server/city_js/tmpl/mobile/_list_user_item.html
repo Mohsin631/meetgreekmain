@@ -1,0 +1,15 @@
+<li id="user_frame_{list_users_item_id}" data-uid="{list_users_item_id}" class="bl_user_frame">
+    <div class="bl">
+        <div class="pic">
+        <button id="user_photo_{list_users_item_id}" data-uid="{list_users_item_id}" onclick="city.setCurrentUser($(this).data('uid'),0,1); return false;"  style="background-image: url({list_users_item_photo});" class="frame" title=""></button>
+        </div>
+    </div>
+	<div class="name">
+        <a onclick="if(!'{list_users_item_profile_link}')return false;"<!-- begin_list_users_item_target-->target="_blank"<!-- end_list_users_item_target--> href="{list_users_item_profile_link}">{list_users_item_name_short}</a><span class="age">&nbsp;{list_users_item_age}</span>
+    </div>
+    <a href="#null" data-uid="{list_users_item_id}" onclick="city.setCurrentUser($(this).data('uid'),0,1); return false;" class="count {list_users_item_new_msg_actived}"><span>{list_users_item_new_msg_count}</span></a>
+    <script>
+        city.addUserToListChat('{list_users_item_id}');
+        preloadImageInsertInDom(['{list_users_item_block_info_photo}']);
+    </script>
+</li>
