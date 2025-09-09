@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/slqihj5q4r69/public_html/staging-main
+    - /bin/rsync -av --exclude='.git' ./ $DEPLOYPATH
